@@ -1,0 +1,5189 @@
+[
+  {
+    "id": "chase-sapphire-reserve",
+    "name": "Chase Sapphire Reserve\u00ae",
+    "issuer": "Chase",
+    "network": "Visa Infinite",
+    "type": "personal",
+    "categoryGroup": "travel",
+    "category": [
+      "travel",
+      "luxury"
+    ],
+    "annualFee": 795,
+    "rewardsProgram": "Chase Ultimate Rewards",
+    "isYourCard": true,
+    "signupBonus": {
+      "points": 150000,
+      "minSpend": 6000,
+      "timeframeDays": 90,
+      "estimatedValue": 1500
+    },
+    "earningRates": [
+      {
+        "category": "travel",
+        "multiplier": 8,
+        "notes": "All Chase Travel purchases incl. The Edit hotels & flights"
+      },
+      {
+        "category": "flights",
+        "multiplier": 4,
+        "notes": "Booked directly with airlines"
+      },
+      {
+        "category": "hotels",
+        "multiplier": 4,
+        "notes": "Booked directly with hotels"
+      },
+      {
+        "category": "dining",
+        "multiplier": 3,
+        "notes": "Worldwide restaurants, delivery, takeout"
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [
+      {
+        "id": "travel-credit",
+        "name": "Annual Travel Credit",
+        "amount": 300,
+        "frequency": "annual",
+        "merchant": "Any travel charge",
+        "category": "travel"
+      },
+      {
+        "id": "edit-hotel-credit",
+        "name": "The Edit by Chase Travel Hotel Credit",
+        "amount": 500,
+        "frequency": "annual",
+        "merchant": "Chase Travel - The Edit (2-night min)",
+        "category": "travel"
+      },
+      {
+        "id": "dining-credit",
+        "name": "Exclusive Tables Dining Credit",
+        "amount": 300,
+        "frequency": "annual",
+        "splits": [
+          {
+            "amount": 150,
+            "period": "Semi-annually"
+          }
+        ],
+        "merchant": "OpenTable",
+        "category": "dining"
+      },
+      {
+        "id": "stubhub-credit",
+        "name": "StubHub / viagogo Events Credit",
+        "amount": 300,
+        "frequency": "annual",
+        "splits": [
+          {
+            "amount": 150,
+            "period": "Semi-annually"
+          }
+        ],
+        "merchant": "StubHub / viagogo",
+        "category": "entertainment"
+      },
+      {
+        "id": "apple-credit",
+        "name": "Apple TV+ & Apple Music Credit",
+        "amount": 288,
+        "frequency": "annual",
+        "merchant": "Apple (through June 2027)",
+        "category": "streaming"
+      },
+      {
+        "id": "doordash-credit",
+        "name": "DashPass + DoorDash Credits",
+        "amount": 120,
+        "frequency": "annual",
+        "splits": [
+          {
+            "amount": 25,
+            "period": "Monthly"
+          }
+        ],
+        "merchant": "DoorDash (through Dec 2027)",
+        "category": "dining"
+      },
+      {
+        "id": "lyft-credit",
+        "name": "Lyft Credit",
+        "amount": 120,
+        "frequency": "annual",
+        "splits": [
+          {
+            "amount": 10,
+            "period": "Monthly"
+          }
+        ],
+        "merchant": "Lyft (through Sept 2027)",
+        "category": "travel"
+      },
+      {
+        "id": "peloton-credit",
+        "name": "Peloton Membership Credit",
+        "amount": 120,
+        "frequency": "annual",
+        "merchant": "Peloton",
+        "category": "fitness"
+      },
+      {
+        "id": "global-entry",
+        "name": "Global Entry / TSA PreCheck Credit",
+        "amount": 120,
+        "frequency": "4_years",
+        "merchant": "CBP / TSA",
+        "category": "travel"
+      }
+    ],
+    "transferPartners": [
+      "United MileagePlus",
+      "Southwest Rapid Rewards",
+      "Hyatt",
+      "IHG One Rewards",
+      "Marriott Bonvoy",
+      "Air Canada Aeroplan",
+      "British Airways Avios",
+      "Air France/KLM Flying Blue",
+      "Singapore KrisFlyer",
+      "Emirates Skywards",
+      "Iberia Avios",
+      "JetBlue TrueBlue",
+      "Wyndham Rewards",
+      "Virgin Atlantic Flying Club"
+    ],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": true,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": true
+    },
+    "travelProtections": {
+      "tripDelay": true,
+      "baggageInsurance": true,
+      "rentalCar": true,
+      "purchaseProtection": true,
+      "extendedWarranty": true
+    },
+    "hotelStatus": [],
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "excellent",
+    "estimatedAnnualValue": 2200,
+    "bestFor": "Frequent travelers who can maximize $2,000+ in stacked annual credits and lounge access"
+  },
+  {
+    "id": "chase-sapphire-preferred",
+    "name": "Chase Sapphire Preferred\u00ae",
+    "issuer": "Chase",
+    "network": "Visa Signature",
+    "type": "personal",
+    "categoryGroup": "travel",
+    "category": [
+      "travel"
+    ],
+    "annualFee": 95,
+    "rewardsProgram": "Chase Ultimate Rewards",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 75000,
+      "minSpend": 5000,
+      "timeframeDays": 90,
+      "estimatedValue": 937
+    },
+    "earningRates": [
+      {
+        "category": "travel",
+        "multiplier": 5,
+        "notes": "Via Chase Travel (excl. $50 hotel credit)"
+      },
+      {
+        "category": "dining",
+        "multiplier": 3,
+        "notes": "Restaurants, select streaming, online grocery"
+      },
+      {
+        "category": "all",
+        "multiplier": 2,
+        "notes": "Other travel purchases"
+      },
+      {
+        "category": "all",
+        "multiplier": 1,
+        "notes": "All other purchases"
+      }
+    ],
+    "credits": [
+      {
+        "id": "hotel-credit",
+        "name": "Annual Chase Travel Hotel Credit",
+        "amount": 50,
+        "frequency": "annual",
+        "merchant": "Chase Travel",
+        "category": "travel"
+      },
+      {
+        "id": "dashpass",
+        "name": "DashPass Membership Value",
+        "amount": 120,
+        "frequency": "annual",
+        "merchant": "DoorDash (through Dec 2027)",
+        "category": "dining"
+      }
+    ],
+    "transferPartners": [
+      "United MileagePlus",
+      "Southwest Rapid Rewards",
+      "Hyatt",
+      "IHG One Rewards",
+      "Marriott Bonvoy",
+      "Air Canada Aeroplan",
+      "British Airways Avios",
+      "Air France/KLM Flying Blue",
+      "Singapore KrisFlyer",
+      "Emirates Skywards",
+      "Iberia Avios",
+      "JetBlue TrueBlue",
+      "Wyndham Rewards",
+      "Virgin Atlantic Flying Club"
+    ],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripDelay": true,
+      "baggageInsurance": true,
+      "rentalCar": true,
+      "purchaseProtection": false,
+      "extendedWarranty": false
+    },
+    "hotelStatus": [],
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 800,
+    "bestFor": "Best entry-level travel card \u2014 full transfer partner access and strong protections for $95"
+  },
+  {
+    "id": "amex-platinum",
+    "name": "The Platinum Card\u00ae from American Express",
+    "issuer": "American Express",
+    "network": "Amex",
+    "type": "personal",
+    "categoryGroup": "travel",
+    "category": [
+      "travel",
+      "luxury"
+    ],
+    "annualFee": 895,
+    "rewardsProgram": "Amex Membership Rewards",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 175000,
+      "minSpend": 12000,
+      "timeframeDays": 180,
+      "estimatedValue": 3500
+    },
+    "earningRates": [
+      {
+        "category": "flights",
+        "multiplier": 5,
+        "notes": "Booked directly with airlines or via Amex Travel (up to $500K/yr)"
+      },
+      {
+        "category": "hotels",
+        "multiplier": 5,
+        "notes": "Prepaid hotels via AmexTravel.com"
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [
+      {
+        "id": "airline-fee",
+        "name": "Airline Incidental Fee Credit",
+        "amount": 200,
+        "frequency": "annual",
+        "merchant": "Select 1 airline",
+        "category": "travel"
+      },
+      {
+        "id": "uber-cash",
+        "name": "Uber Cash",
+        "amount": 200,
+        "frequency": "annual",
+        "splits": [
+          {
+            "amount": 15,
+            "period": "Monthly + $20 in Dec"
+          }
+        ],
+        "merchant": "Uber / Uber Eats",
+        "category": "travel"
+      },
+      {
+        "id": "uber-one",
+        "name": "Uber One Membership Credit",
+        "amount": 120,
+        "frequency": "annual",
+        "merchant": "Uber One",
+        "category": "travel"
+      },
+      {
+        "id": "digital-entertainment",
+        "name": "Digital Entertainment Credit",
+        "amount": 300,
+        "frequency": "annual",
+        "splits": [
+          {
+            "amount": 25,
+            "period": "Monthly"
+          }
+        ],
+        "merchant": "Disney+, Hulu, ESPN+, NYT, WSJ, Peacock, Paramount+, YouTube",
+        "category": "streaming"
+      },
+      {
+        "id": "hotel-credit",
+        "name": "Prepaid Hotel Credit",
+        "amount": 600,
+        "frequency": "annual",
+        "splits": [
+          {
+            "amount": 300,
+            "period": "Semi-annually"
+          }
+        ],
+        "merchant": "Fine Hotels + Resorts or Hotel Collection (2-night min)",
+        "category": "travel"
+      },
+      {
+        "id": "resy-dining",
+        "name": "Resy Dining Credit",
+        "amount": 400,
+        "frequency": "annual",
+        "splits": [
+          {
+            "amount": 100,
+            "period": "Quarterly"
+          }
+        ],
+        "merchant": "U.S. Resy restaurants",
+        "category": "dining"
+      },
+      {
+        "id": "equinox",
+        "name": "Equinox Credit",
+        "amount": 300,
+        "frequency": "annual",
+        "merchant": "Equinox gym or Equinox+ digital",
+        "category": "fitness"
+      },
+      {
+        "id": "lululemon",
+        "name": "lululemon Credit",
+        "amount": 300,
+        "frequency": "annual",
+        "splits": [
+          {
+            "amount": 75,
+            "period": "Quarterly"
+          }
+        ],
+        "merchant": "lululemon",
+        "category": "fitness"
+      },
+      {
+        "id": "walmart-plus",
+        "name": "Walmart+ Membership Credit",
+        "amount": 155,
+        "frequency": "annual",
+        "merchant": "Walmart+",
+        "category": "shopping"
+      },
+      {
+        "id": "clear-plus",
+        "name": "CLEAR+ Membership Credit",
+        "amount": 120,
+        "frequency": "annual",
+        "merchant": "CLEAR+",
+        "category": "travel"
+      },
+      {
+        "id": "global-entry",
+        "name": "Global Entry / TSA PreCheck Credit",
+        "amount": 100,
+        "frequency": "4_years",
+        "merchant": "CBP / TSA",
+        "category": "travel"
+      },
+      {
+        "id": "saks",
+        "name": "Saks Fifth Avenue Credit",
+        "amount": 100,
+        "frequency": "annual",
+        "merchant": "Saks Fifth Avenue (ends June 30, 2026)",
+        "category": "shopping"
+      }
+    ],
+    "transferPartners": [
+      "ANA Mileage Club",
+      "Air Canada Aeroplan",
+      "British Airways Avios",
+      "Cathay Pacific Asia Miles",
+      "Delta SkyMiles",
+      "Emirates Skywards",
+      "Etihad Guest",
+      "Air France/KLM Flying Blue",
+      "Hawaiian Miles",
+      "Iberia Avios",
+      "JetBlue TrueBlue",
+      "Qantas Frequent Flyer",
+      "Qatar Avios",
+      "Singapore KrisFlyer",
+      "Virgin Atlantic Flying Club",
+      "Avianca LifeMiles",
+      "Hilton Honors",
+      "Marriott Bonvoy",
+      "Choice Privileges"
+    ],
+    "loungeAccess": {
+      "centurion": true,
+      "priorityPass": true,
+      "deltaClub": true,
+      "plazaPremium": true,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripDelay": true,
+      "baggageInsurance": true,
+      "rentalCar": true,
+      "purchaseProtection": true,
+      "extendedWarranty": true
+    },
+    "hotelStatus": [
+      "Marriott Bonvoy Gold Elite",
+      "Hilton Honors Gold",
+      "Leaders Club Sterling"
+    ],
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 3500,
+    "bestFor": "Luxury travelers who fly frequently and can maximize $3,500+ in annual credits"
+  },
+  {
+    "id": "amex-gold",
+    "name": "American Express\u00ae Gold Card",
+    "issuer": "American Express",
+    "network": "Amex",
+    "type": "personal",
+    "categoryGroup": "travel",
+    "category": [
+      "travel",
+      "dining"
+    ],
+    "annualFee": 325,
+    "rewardsProgram": "Amex Membership Rewards",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 100000,
+      "minSpend": 8000,
+      "timeframeDays": 180,
+      "estimatedValue": 2000
+    },
+    "earningRates": [
+      {
+        "category": "dining",
+        "multiplier": 4,
+        "notes": "Restaurants worldwide up to $50,000/yr"
+      },
+      {
+        "category": "groceries",
+        "multiplier": 4,
+        "notes": "U.S. supermarkets up to $25,000/yr"
+      },
+      {
+        "category": "hotels",
+        "multiplier": 5,
+        "notes": "Prepaid hotels via AmexTravel (NEW Apr 30 2026)"
+      },
+      {
+        "category": "flights",
+        "multiplier": 3,
+        "notes": "Via Amex Travel or booked directly"
+      },
+      {
+        "category": "travel",
+        "multiplier": 2,
+        "notes": "Prepaid car rentals & cruises via Amex Travel"
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [
+      {
+        "id": "dining-credit",
+        "name": "Monthly Dining Credit",
+        "amount": 120,
+        "frequency": "annual",
+        "splits": [
+          {
+            "amount": 10,
+            "period": "Monthly"
+          }
+        ],
+        "merchant": "Grubhub, Buffalo Wild Wings, Five Guys, Cheesecake Factory, Wonder",
+        "category": "dining"
+      },
+      {
+        "id": "uber-cash",
+        "name": "Uber Cash",
+        "amount": 120,
+        "frequency": "annual",
+        "splits": [
+          {
+            "amount": 10,
+            "period": "Monthly"
+          }
+        ],
+        "merchant": "Uber / Uber Eats (U.S.)",
+        "category": "travel"
+      },
+      {
+        "id": "resy-credit",
+        "name": "Resy Credit",
+        "amount": 100,
+        "frequency": "annual",
+        "splits": [
+          {
+            "amount": 50,
+            "period": "Semi-annually"
+          }
+        ],
+        "merchant": "U.S. Resy restaurants",
+        "category": "dining"
+      },
+      {
+        "id": "dunkin-credit",
+        "name": "Dunkin' Credit",
+        "amount": 84,
+        "frequency": "annual",
+        "splits": [
+          {
+            "amount": 7,
+            "period": "Monthly"
+          }
+        ],
+        "merchant": "Dunkin'",
+        "category": "dining"
+      }
+    ],
+    "transferPartners": [
+      "ANA Mileage Club",
+      "Air Canada Aeroplan",
+      "British Airways Avios",
+      "Cathay Pacific Asia Miles",
+      "Delta SkyMiles",
+      "Emirates Skywards",
+      "Etihad Guest",
+      "Air France/KLM Flying Blue",
+      "Hawaiian Miles",
+      "Iberia Avios",
+      "JetBlue TrueBlue",
+      "Qantas Frequent Flyer",
+      "Qatar Avios",
+      "Singapore KrisFlyer",
+      "Virgin Atlantic Flying Club",
+      "Avianca LifeMiles",
+      "Hilton Honors",
+      "Marriott Bonvoy",
+      "Choice Privileges"
+    ],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripDelay": false,
+      "baggageInsurance": false,
+      "rentalCar": false,
+      "purchaseProtection": true,
+      "extendedWarranty": true
+    },
+    "hotelStatus": [
+      "Hertz Five Star"
+    ],
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 1200,
+    "bestFor": "Foodies and families with high grocery and restaurant spend who want Amex MR points"
+  },
+  {
+    "id": "capital-one-venture-x",
+    "name": "Capital One Venture X Rewards Credit Card",
+    "issuer": "Capital One",
+    "network": "Visa Infinite",
+    "type": "personal",
+    "categoryGroup": "travel",
+    "category": [
+      "travel",
+      "luxury"
+    ],
+    "annualFee": 395,
+    "rewardsProgram": "Capital One Miles",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 75000,
+      "minSpend": 4000,
+      "timeframeDays": 90,
+      "estimatedValue": 750
+    },
+    "earningRates": [
+      {
+        "category": "hotels",
+        "multiplier": 10,
+        "notes": "Hotels & rental cars via Capital One Travel"
+      },
+      {
+        "category": "flights",
+        "multiplier": 5,
+        "notes": "Flights & vacation rentals via Capital One Travel"
+      },
+      {
+        "category": "entertainment",
+        "multiplier": 5,
+        "notes": "Capital One Entertainment purchases"
+      },
+      {
+        "category": "all",
+        "multiplier": 2
+      }
+    ],
+    "credits": [
+      {
+        "id": "travel-credit",
+        "name": "Annual Capital One Travel Credit",
+        "amount": 300,
+        "frequency": "annual",
+        "merchant": "Capital One Travel portal",
+        "category": "travel"
+      },
+      {
+        "id": "anniversary-miles",
+        "name": "Anniversary Bonus Miles",
+        "amount": 100,
+        "frequency": "annual",
+        "merchant": "10,000 miles (~$100 value)",
+        "category": "travel"
+      },
+      {
+        "id": "global-entry",
+        "name": "Global Entry / TSA PreCheck Credit",
+        "amount": 120,
+        "frequency": "4_years",
+        "merchant": "CBP / TSA",
+        "category": "travel"
+      },
+      {
+        "id": "premier-collection",
+        "name": "Premier Collection Hotel Credit",
+        "amount": 100,
+        "frequency": "annual",
+        "merchant": "Premier Collection hotels (per booking)",
+        "category": "travel"
+      }
+    ],
+    "transferPartners": [
+      "Air Canada Aeroplan",
+      "British Airways Avios",
+      "Emirates Skywards",
+      "Air France/KLM Flying Blue",
+      "Singapore KrisFlyer",
+      "Qatar Avios",
+      "Turkish Miles&Smiles",
+      "JetBlue TrueBlue",
+      "Avianca LifeMiles",
+      "Wyndham Rewards",
+      "Choice Privileges",
+      "Accor Live Limitless"
+    ],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": true,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": true,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripDelay": true,
+      "baggageInsurance": true,
+      "rentalCar": true,
+      "purchaseProtection": true,
+      "extendedWarranty": true
+    },
+    "hotelStatus": [],
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "excellent",
+    "estimatedAnnualValue": 800,
+    "bestFor": "Best value premium card \u2014 annual fee effectively $0 after $300 travel credit and anniversary miles"
+  },
+  {
+    "id": "capital-one-venture",
+    "name": "Capital One Venture Rewards Credit Card",
+    "issuer": "Capital One",
+    "network": "Visa Signature",
+    "type": "personal",
+    "categoryGroup": "travel",
+    "category": [
+      "travel"
+    ],
+    "annualFee": 95,
+    "rewardsProgram": "Capital One Miles",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 75000,
+      "minSpend": 4000,
+      "timeframeDays": 90,
+      "estimatedValue": 750
+    },
+    "earningRates": [
+      {
+        "category": "hotels",
+        "multiplier": 5,
+        "notes": "Hotels & rental cars via Capital One Travel"
+      },
+      {
+        "category": "entertainment",
+        "multiplier": 5,
+        "notes": "Capital One Entertainment"
+      },
+      {
+        "category": "all",
+        "multiplier": 2
+      }
+    ],
+    "credits": [
+      {
+        "id": "global-entry",
+        "name": "Global Entry / TSA PreCheck Credit",
+        "amount": 120,
+        "frequency": "4_years",
+        "merchant": "CBP / TSA",
+        "category": "travel"
+      }
+    ],
+    "transferPartners": [
+      "Air Canada Aeroplan",
+      "British Airways Avios",
+      "Emirates Skywards",
+      "Air France/KLM Flying Blue",
+      "Singapore KrisFlyer",
+      "Qatar Avios",
+      "Turkish Miles&Smiles",
+      "JetBlue TrueBlue",
+      "Avianca LifeMiles",
+      "Wyndham Rewards",
+      "Choice Privileges",
+      "Accor Live Limitless"
+    ],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripDelay": false,
+      "baggageInsurance": false,
+      "rentalCar": true,
+      "purchaseProtection": false,
+      "extendedWarranty": false
+    },
+    "hotelStatus": [],
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 600,
+    "bestFor": "Simple 2x on everything with full transfer partner access \u2014 best $95 entry to Capital One ecosystem"
+  },
+  {
+    "id": "citi-strata-premier",
+    "name": "Citi Strata Premier\u00ae Card",
+    "issuer": "Citi",
+    "network": "Mastercard",
+    "type": "personal",
+    "categoryGroup": "travel",
+    "category": [
+      "travel"
+    ],
+    "annualFee": 95,
+    "rewardsProgram": "Citi ThankYou Points",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 60000,
+      "minSpend": 4000,
+      "timeframeDays": 90,
+      "estimatedValue": 600
+    },
+    "earningRates": [
+      {
+        "category": "hotels",
+        "multiplier": 10,
+        "notes": "Hotels, car rentals & attractions via CitiTravel.com"
+      },
+      {
+        "category": "flights",
+        "multiplier": 3,
+        "notes": "Air travel & other hotel purchases"
+      },
+      {
+        "category": "dining",
+        "multiplier": 3,
+        "notes": "Restaurants worldwide"
+      },
+      {
+        "category": "groceries",
+        "multiplier": 3,
+        "notes": "U.S. supermarkets"
+      },
+      {
+        "category": "gas",
+        "multiplier": 3,
+        "notes": "Gas & EV charging stations"
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [
+      {
+        "id": "hotel-savings",
+        "name": "Annual Hotel Savings",
+        "amount": 100,
+        "frequency": "annual",
+        "merchant": "CitiTravel.com ($500+ hotel stay, once/yr)",
+        "category": "travel"
+      }
+    ],
+    "transferPartners": [
+      "American Airlines AAdvantage",
+      "Air France/KLM Flying Blue",
+      "Avianca LifeMiles",
+      "Emirates Skywards",
+      "Cathay Pacific Asia Miles",
+      "Eva Air Infinity MileageLands",
+      "Qatar Avios",
+      "Singapore KrisFlyer",
+      "Turkish Miles&Smiles",
+      "Virgin Atlantic Flying Club",
+      "JetBlue TrueBlue",
+      "Choice Privileges",
+      "Accor Live Limitless",
+      "Leading Hotels of the World"
+    ],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripDelay": true,
+      "baggageInsurance": false,
+      "rentalCar": true,
+      "purchaseProtection": false,
+      "extendedWarranty": false
+    },
+    "hotelStatus": [],
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 500,
+    "bestFor": "Travelers who want 3x across all major categories \u2014 broadest bonus coverage at $95"
+  },
+  {
+    "id": "bilt-mastercard",
+    "name": "Bilt Mastercard (Blue \u2014 2026)",
+    "issuer": "Column N.A. (Bilt Inc.)",
+    "network": "Mastercard World Elite",
+    "type": "personal",
+    "categoryGroup": "travel",
+    "category": [
+      "travel",
+      "cash_back"
+    ],
+    "annualFee": 0,
+    "rewardsProgram": "Bilt Points",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 0,
+      "minSpend": 0,
+      "timeframeDays": 0,
+      "estimatedValue": 0
+    },
+    "earningRates": [
+      {
+        "category": "rent",
+        "multiplier": 1.25,
+        "notes": "Rent & mortgage payments via Bilt App (tiered by spend ratio)"
+      },
+      {
+        "category": "travel",
+        "multiplier": 2,
+        "notes": "Direct with airlines, hotels, car rentals"
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [],
+    "transferPartners": [
+      "United MileagePlus",
+      "American Airlines AAdvantage",
+      "Southwest Rapid Rewards",
+      "Emirates Skywards",
+      "Virgin Atlantic Flying Club",
+      "Air France/KLM Flying Blue",
+      "Air Canada Aeroplan",
+      "Singapore KrisFlyer",
+      "Turkish Miles&Smiles",
+      "Cathay Pacific Asia Miles",
+      "British Airways Avios",
+      "JetBlue TrueBlue",
+      "Hyatt",
+      "IHG One Rewards",
+      "Marriott Bonvoy",
+      "Hilton Honors",
+      "Choice Privileges"
+    ],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripDelay": false,
+      "baggageInsurance": false,
+      "rentalCar": false,
+      "purchaseProtection": false,
+      "extendedWarranty": false
+    },
+    "hotelStatus": [],
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 200,
+    "bestFor": "Renters or homeowners wanting to earn points on their largest monthly expense for free"
+  },
+  {
+    "id": "amex-business-platinum",
+    "name": "The Business Platinum Card\u00ae from American Express",
+    "issuer": "American Express",
+    "network": "Amex",
+    "type": "business",
+    "categoryGroup": "business",
+    "category": [
+      "travel",
+      "luxury"
+    ],
+    "annualFee": 895,
+    "rewardsProgram": "Amex Membership Rewards",
+    "isYourCard": true,
+    "signupBonus": {
+      "points": 300000,
+      "minSpend": 20000,
+      "timeframeDays": 90,
+      "estimatedValue": 6000
+    },
+    "earningRates": [
+      {
+        "category": "flights",
+        "multiplier": 5,
+        "notes": "Booked directly with airlines or via Amex Travel"
+      },
+      {
+        "category": "hotels",
+        "multiplier": 5,
+        "notes": "Prepaid hotels via Amex Travel"
+      },
+      {
+        "category": "large_purchases",
+        "multiplier": 2,
+        "notes": "Single purchases of $5,000+ (up to $2M/yr) \u2014 upgraded from 1.5x in 2025"
+      },
+      {
+        "category": "shipping",
+        "multiplier": 2,
+        "notes": "Select business categories incl. electronic goods, software, construction, shipping (up to $2M/yr)"
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [
+      {
+        "id": "dell-credit",
+        "name": "Dell Technologies Credit",
+        "amount": 400,
+        "frequency": "annual",
+        "splits": [
+          {
+            "amount": 200,
+            "period": "Semi-annually"
+          }
+        ],
+        "merchant": "Dell",
+        "category": "technology"
+      },
+      {
+        "id": "indeed-credit",
+        "name": "Indeed Hiring Credit",
+        "amount": 360,
+        "frequency": "annual",
+        "splits": [
+          {
+            "amount": 90,
+            "period": "Quarterly"
+          }
+        ],
+        "merchant": "Indeed",
+        "category": "business"
+      },
+      {
+        "id": "adobe-credit",
+        "name": "Adobe Credit",
+        "amount": 250,
+        "frequency": "annual",
+        "merchant": "Adobe (requires $600+ Adobe spend)",
+        "category": "technology"
+      },
+      {
+        "id": "airline-fee",
+        "name": "Airline Incidental Fee Credit",
+        "amount": 200,
+        "frequency": "annual",
+        "merchant": "Select 1 airline",
+        "category": "travel"
+      },
+      {
+        "id": "hilton-credit",
+        "name": "Hilton Hotels Credit",
+        "amount": 200,
+        "frequency": "annual",
+        "merchant": "Hilton Hotels",
+        "category": "travel"
+      },
+      {
+        "id": "wireless-credit",
+        "name": "Wireless Telephone Credit",
+        "amount": 120,
+        "frequency": "annual",
+        "splits": [
+          {
+            "amount": 10,
+            "period": "Monthly"
+          }
+        ],
+        "merchant": "U.S. wireless carriers",
+        "category": "business"
+      },
+      {
+        "id": "clear-plus",
+        "name": "CLEAR+ Membership Credit",
+        "amount": 209,
+        "frequency": "annual",
+        "merchant": "CLEAR+",
+        "category": "travel"
+      },
+      {
+        "id": "global-entry",
+        "name": "Global Entry / TSA PreCheck Credit",
+        "amount": 120,
+        "frequency": "4_years",
+        "merchant": "CBP / TSA",
+        "category": "travel"
+      },
+      {
+        "id": "hotel-credit",
+        "name": "Prepaid Hotel Credit",
+        "amount": 600,
+        "frequency": "annual",
+        "splits": [
+          {
+            "amount": 300,
+            "period": "Semi-annually"
+          }
+        ],
+        "merchant": "Fine Hotels + Resorts or Hotel Collection (2-night min)",
+        "category": "travel"
+      }
+    ],
+    "transferPartners": [
+      "ANA Mileage Club",
+      "Air Canada Aeroplan",
+      "British Airways Avios",
+      "Cathay Pacific Asia Miles",
+      "Delta SkyMiles",
+      "Emirates Skywards",
+      "Etihad Guest",
+      "Air France/KLM Flying Blue",
+      "Hawaiian Miles",
+      "Iberia Avios",
+      "JetBlue TrueBlue",
+      "Qantas Frequent Flyer",
+      "Qatar Avios",
+      "Singapore KrisFlyer",
+      "Virgin Atlantic Flying Club",
+      "Avianca LifeMiles",
+      "Hilton Honors",
+      "Marriott Bonvoy",
+      "Choice Privileges"
+    ],
+    "loungeAccess": {
+      "centurion": true,
+      "priorityPass": true,
+      "deltaClub": true,
+      "plazaPremium": true,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripDelay": true,
+      "baggageInsurance": true,
+      "rentalCar": true,
+      "purchaseProtection": true,
+      "extendedWarranty": true
+    },
+    "hotelStatus": [
+      "Marriott Bonvoy Gold Elite",
+      "Hilton Honors Gold"
+    ],
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 3000,
+    "bestFor": "Business owners with heavy travel and large purchases who can maximize $3,500+ in credits"
+  },
+  {
+    "id": "amex-business-gold",
+    "name": "American Express\u00ae Business Gold Card",
+    "issuer": "American Express",
+    "network": "Amex",
+    "type": "business",
+    "categoryGroup": "business",
+    "category": [
+      "travel",
+      "business"
+    ],
+    "annualFee": 375,
+    "rewardsProgram": "Amex Membership Rewards",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 200000,
+      "minSpend": 15000,
+      "timeframeDays": 90,
+      "estimatedValue": 4000
+    },
+    "earningRates": [
+      {
+        "category": "advertising",
+        "multiplier": 4,
+        "notes": "Top 2 categories auto-selected monthly from: U.S. advertising, gas, restaurants, shipping, transit, tech (up to $150K/yr combined)"
+      },
+      {
+        "category": "flights",
+        "multiplier": 3,
+        "notes": "Flights & prepaid hotels via AmexTravel.com"
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [
+      {
+        "id": "business-credit",
+        "name": "Flexible Business Credit",
+        "amount": 240,
+        "frequency": "annual",
+        "splits": [
+          {
+            "amount": 20,
+            "period": "Monthly"
+          }
+        ],
+        "merchant": "FedEx, Grubhub, office supply stores",
+        "category": "business"
+      },
+      {
+        "id": "walmart-plus",
+        "name": "Walmart+ Membership Credit",
+        "amount": 155,
+        "frequency": "annual",
+        "merchant": "Walmart+",
+        "category": "shopping"
+      },
+      {
+        "id": "squarespace",
+        "name": "Squarespace Credit",
+        "amount": 150,
+        "frequency": "annual",
+        "merchant": "Squarespace (U.S.)",
+        "category": "business"
+      }
+    ],
+    "transferPartners": [
+      "ANA Mileage Club",
+      "Air Canada Aeroplan",
+      "British Airways Avios",
+      "Cathay Pacific Asia Miles",
+      "Delta SkyMiles",
+      "Emirates Skywards",
+      "Etihad Guest",
+      "Air France/KLM Flying Blue",
+      "Hawaiian Miles",
+      "Iberia Avios",
+      "JetBlue TrueBlue",
+      "Qantas Frequent Flyer",
+      "Qatar Avios",
+      "Singapore KrisFlyer",
+      "Virgin Atlantic Flying Club",
+      "Avianca LifeMiles",
+      "Hilton Honors",
+      "Marriott Bonvoy",
+      "Choice Privileges"
+    ],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripDelay": false,
+      "baggageInsurance": false,
+      "rentalCar": false,
+      "purchaseProtection": true,
+      "extendedWarranty": true
+    },
+    "hotelStatus": [],
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 1500,
+    "bestFor": "Businesses spending heavily in 2+ of: advertising, gas, dining, office supplies, shipping, or tech"
+  },
+  {
+    "id": "chase-ink-business-preferred",
+    "name": "Ink Business Preferred Credit Card",
+    "issuer": "Chase",
+    "network": "Visa",
+    "type": "business",
+    "categoryGroup": "business",
+    "category": "Travel Rewards",
+    "annualFee": 95,
+    "rewardsProgram": "Chase Ultimate Rewards",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 100000,
+      "minSpend": 8000,
+      "timeframeDays": 90,
+      "estimatedValue": 2000
+    },
+    "earningRates": [
+      {
+        "category": "travel",
+        "multiplier": 3,
+        "notes": "Travel, shipping, advertising, telecom (up to $150K/yr combined)"
+      },
+      {
+        "category": "shipping",
+        "multiplier": 3
+      },
+      {
+        "category": "advertising",
+        "multiplier": 3
+      },
+      {
+        "category": "telecom",
+        "multiplier": 3
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [
+      {
+        "id": "cell-protection",
+        "name": "Cell Phone Protection",
+        "merchant": "Various",
+        "amount": 0,
+        "frequency": "annual",
+        "notes": "Up to $1,000/claim, $100 deductible"
+      }
+    ],
+    "transferPartners": [
+      "United MileagePlus",
+      "Southwest Rapid Rewards",
+      "Hyatt",
+      "Marriott Bonvoy",
+      "British Airways Avios",
+      "Air France KLM Flying Blue",
+      "Singapore Airlines KrisFlyer",
+      "Aer Lingus",
+      "Iberia Plus"
+    ],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripCancellation": true,
+      "tripDelay": true,
+      "baggageDelay": true,
+      "rentalCarCoverage": true,
+      "purchaseProtection": true,
+      "extendedWarranty": true
+    },
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 1200,
+    "bestFor": "Best business card signup bonus + 3x on key business categories"
+  },
+  {
+    "id": "chase-ink-business-premier",
+    "name": "Chase Ink Business Premier\u00ae Credit Card",
+    "issuer": "Chase",
+    "network": "Visa",
+    "type": "business",
+    "categoryGroup": "business",
+    "category": [
+      "business"
+    ],
+    "annualFee": 195,
+    "rewardsProgram": "Chase Ultimate Rewards",
+    "isYourCard": true,
+    "signupBonus": {
+      "points": 0,
+      "minSpend": 10000,
+      "timeframeDays": 90,
+      "estimatedValue": 1000
+    },
+    "earningRates": [
+      {
+        "category": "large_purchases",
+        "multiplier": 2.5,
+        "notes": "Single purchases of $5,000 or more"
+      },
+      {
+        "category": "travel",
+        "multiplier": 5,
+        "notes": "Travel booked through Chase Travel"
+      },
+      {
+        "category": "all",
+        "multiplier": 2
+      }
+    ],
+    "credits": [],
+    "transferPartners": [],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripDelay": true,
+      "baggageInsurance": true,
+      "rentalCar": true,
+      "purchaseProtection": true,
+      "extendedWarranty": true
+    },
+    "hotelStatus": [],
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "very_good",
+    "estimatedAnnualValue": 600,
+    "bestFor": "High-volume businesses with frequent large purchases wanting straightforward 2.5% cash back"
+  },
+  {
+    "id": "chase-ink-business-unlimited",
+    "name": "Chase Ink Business Unlimited\u00ae Credit Card",
+    "issuer": "Chase",
+    "network": "Visa",
+    "type": "business",
+    "categoryGroup": "business",
+    "category": [
+      "cash_back",
+      "business"
+    ],
+    "annualFee": 0,
+    "rewardsProgram": "Chase Ultimate Rewards",
+    "isYourCard": true,
+    "signupBonus": {
+      "points": 0,
+      "minSpend": 6000,
+      "timeframeDays": 90,
+      "estimatedValue": 750
+    },
+    "earningRates": [
+      {
+        "category": "all",
+        "multiplier": 1.5
+      },
+      {
+        "category": "rideshare",
+        "multiplier": 5,
+        "notes": "Lyft rides through Sept 2027"
+      }
+    ],
+    "credits": [],
+    "transferPartners": [],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripDelay": false,
+      "baggageInsurance": false,
+      "rentalCar": true,
+      "purchaseProtection": true,
+      "extendedWarranty": true
+    },
+    "hotelStatus": [],
+    "foreignTransactionFee": true,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 450,
+    "bestFor": "No-fee flat-rate business cash back \u2014 best paired with Ink Preferred to unlock transferable UR points"
+  },
+  {
+    "id": "capital-one-venture-x-business",
+    "name": "Capital One Venture X Business",
+    "issuer": "Capital One",
+    "network": "Visa",
+    "type": "business",
+    "categoryGroup": "business",
+    "category": "Travel Rewards",
+    "annualFee": 395,
+    "rewardsProgram": "Capital One Miles",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 150000,
+      "minSpend": 30000,
+      "timeframeDays": 180,
+      "estimatedValue": 2250
+    },
+    "earningRates": [
+      {
+        "category": "travel",
+        "multiplier": 10,
+        "notes": "Hotels & rental cars via Capital One Travel"
+      },
+      {
+        "category": "flights",
+        "multiplier": 5,
+        "notes": "Flights via Capital One Travel"
+      },
+      {
+        "category": "all",
+        "multiplier": 2
+      }
+    ],
+    "credits": [
+      {
+        "id": "travel-credit",
+        "name": "Annual Travel Credit",
+        "merchant": "Capital One Travel",
+        "amount": 300,
+        "frequency": "annual"
+      },
+      {
+        "id": "anniversary-miles",
+        "name": "10,000 Anniversary Miles",
+        "merchant": "Capital One",
+        "amount": 100,
+        "frequency": "annual"
+      },
+      {
+        "id": "global-entry",
+        "name": "Global Entry / TSA PreCheck",
+        "merchant": "Various",
+        "amount": 120,
+        "frequency": "4years"
+      }
+    ],
+    "transferPartners": [
+      "Air Canada Aeroplan",
+      "Avianca LifeMiles",
+      "British Airways Avios",
+      "Air France KLM Flying Blue",
+      "Turkish Airlines Miles&Smiles",
+      "Singapore Airlines KrisFlyer",
+      "Emirates Skywards",
+      "Cathay Pacific Asia Miles"
+    ],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": true,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": true,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripCancellation": true,
+      "tripDelay": true,
+      "baggageDelay": true,
+      "rentalCarCoverage": true,
+      "purchaseProtection": true,
+      "extendedWarranty": true
+    },
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "excellent",
+    "estimatedAnnualValue": 1200,
+    "bestFor": "Business owners wanting premium lounge access + 2x on everything"
+  },
+  {
+    "id": "amex-blue-business-plus",
+    "name": "Amex Blue Business\u00ae Plus Credit Card",
+    "issuer": "American Express",
+    "network": "Amex",
+    "type": "business",
+    "categoryGroup": "business",
+    "category": [
+      "cash_back",
+      "business"
+    ],
+    "annualFee": 0,
+    "rewardsProgram": "Amex Membership Rewards",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 15000,
+      "minSpend": 3000,
+      "timeframeDays": 90,
+      "estimatedValue": 300
+    },
+    "earningRates": [
+      {
+        "category": "all",
+        "multiplier": 2,
+        "notes": "All eligible purchases up to $50,000/yr, then 1x"
+      }
+    ],
+    "credits": [],
+    "transferPartners": [
+      "ANA Mileage Club",
+      "Air Canada Aeroplan",
+      "British Airways Avios",
+      "Cathay Pacific Asia Miles",
+      "Delta SkyMiles",
+      "Emirates Skywards",
+      "Etihad Guest",
+      "Air France/KLM Flying Blue",
+      "Hawaiian Miles",
+      "Iberia Avios",
+      "JetBlue TrueBlue",
+      "Qantas Frequent Flyer",
+      "Qatar Avios",
+      "Singapore KrisFlyer",
+      "Virgin Atlantic Flying Club",
+      "Avianca LifeMiles",
+      "Hilton Honors",
+      "Marriott Bonvoy",
+      "Choice Privileges"
+    ],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripDelay": false,
+      "baggageInsurance": false,
+      "rentalCar": false,
+      "purchaseProtection": true,
+      "extendedWarranty": true
+    },
+    "hotelStatus": [],
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 400,
+    "bestFor": "No-fee 2x MR points for businesses spending under $50K/yr \u2014 excellent paired with Business Gold or Platinum"
+  },
+  {
+    "id": "capital-one-spark-cash-plus",
+    "name": "Capital One Spark Cash Plus",
+    "issuer": "Capital One",
+    "network": "Visa",
+    "type": "business",
+    "categoryGroup": "business",
+    "category": [
+      "cash_back",
+      "business"
+    ],
+    "annualFee": 150,
+    "rewardsProgram": "Capital One Cash Back",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 0,
+      "minSpend": 30000,
+      "timeframeDays": 90,
+      "estimatedValue": 2000
+    },
+    "earningRates": [
+      {
+        "category": "hotels",
+        "multiplier": 5,
+        "notes": "Hotels & rental cars via Capital One Business Travel"
+      },
+      {
+        "category": "all",
+        "multiplier": 2
+      }
+    ],
+    "credits": [],
+    "transferPartners": [],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripDelay": false,
+      "baggageInsurance": false,
+      "rentalCar": false,
+      "purchaseProtection": false,
+      "extendedWarranty": false
+    },
+    "hotelStatus": [],
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "excellent",
+    "estimatedAnnualValue": 500,
+    "bestFor": "High-volume businesses wanting unlimited 2% cash back \u2014 annual fee refunded at $150K+ spend"
+  },
+  {
+    "id": "chase-freedom-unlimited",
+    "name": "Chase Freedom Unlimited",
+    "issuer": "Chase",
+    "network": "Visa",
+    "type": "personal",
+    "categoryGroup": "cashback",
+    "category": "Flat Rate",
+    "annualFee": 0,
+    "rewardsProgram": "Chase Ultimate Rewards",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 200,
+      "minSpend": 500,
+      "timeframeDays": 90,
+      "estimatedValue": 200
+    },
+    "earningRates": [
+      {
+        "category": "travel",
+        "multiplier": 5,
+        "notes": "Chase Ultimate Rewards portal"
+      },
+      {
+        "category": "dining",
+        "multiplier": 3
+      },
+      {
+        "category": "drugstore",
+        "multiplier": 3
+      },
+      {
+        "category": "all",
+        "multiplier": 1.5,
+        "notes": "1.5% on all other purchases"
+      }
+    ],
+    "credits": [],
+    "transferPartners": [
+      "United MileagePlus",
+      "Southwest Rapid Rewards",
+      "Hyatt",
+      "Marriott Bonvoy",
+      "IHG One Rewards",
+      "Air France KLM Flying Blue",
+      "British Airways Avios",
+      "Singapore Airlines KrisFlyer"
+    ],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripCancellation": true,
+      "tripDelay": false,
+      "baggageDelay": false,
+      "rentalCarCoverage": true,
+      "purchaseProtection": true,
+      "extendedWarranty": true
+    },
+    "foreignTransactionFee": true,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 320,
+    "bestFor": "1.5% everywhere + strong dining rates, pairs with premium Chase cards"
+  },
+  {
+    "id": "chase-freedom-flex",
+    "name": "Chase Freedom Flex",
+    "issuer": "Chase",
+    "network": "Mastercard",
+    "type": "personal",
+    "categoryGroup": "cashback",
+    "category": "Rotating Categories",
+    "annualFee": 0,
+    "rewardsProgram": "Chase Ultimate Rewards",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 200,
+      "minSpend": 500,
+      "timeframeDays": 90,
+      "estimatedValue": 200
+    },
+    "earningRates": [
+      {
+        "category": "all",
+        "multiplier": 5,
+        "notes": "Rotating 5% categories (up to $1,500/quarter, activation required)"
+      },
+      {
+        "category": "travel",
+        "multiplier": 5,
+        "notes": "Chase Ultimate Rewards travel portal"
+      },
+      {
+        "category": "dining",
+        "multiplier": 3
+      },
+      {
+        "category": "drugstore",
+        "multiplier": 3
+      },
+      {
+        "category": "other",
+        "multiplier": 1
+      }
+    ],
+    "credits": [],
+    "transferPartners": [
+      "United MileagePlus",
+      "Southwest Rapid Rewards",
+      "Hyatt",
+      "Marriott Bonvoy",
+      "IHG One Rewards",
+      "Air France KLM Flying Blue",
+      "British Airways Avios",
+      "Singapore Airlines KrisFlyer"
+    ],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripCancellation": true,
+      "tripDelay": false,
+      "baggageDelay": false,
+      "rentalCarCoverage": true,
+      "purchaseProtection": true,
+      "extendedWarranty": true
+    },
+    "foreignTransactionFee": true,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 350,
+    "bestFor": "Rotating 5% categories + pairs perfectly with CSR or CSP"
+  },
+  {
+    "id": "citi-double-cash",
+    "name": "Citi Double Cash Card",
+    "issuer": "Citi",
+    "network": "Mastercard",
+    "type": "personal",
+    "categoryGroup": "cashback",
+    "category": "Flat Rate",
+    "annualFee": 0,
+    "rewardsProgram": "Citi ThankYou",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 0,
+      "minSpend": 0,
+      "timeframeDays": 0,
+      "estimatedValue": 0
+    },
+    "earningRates": [
+      {
+        "category": "all",
+        "multiplier": 2,
+        "notes": "1% when you buy + 1% when you pay"
+      }
+    ],
+    "credits": [],
+    "transferPartners": [
+      "Wyndham Rewards",
+      "JetBlue TrueBlue",
+      "Turkish Airlines Miles&Smiles",
+      "Avianca LifeMiles",
+      "Singapore Airlines KrisFlyer"
+    ],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripCancellation": false,
+      "tripDelay": false,
+      "baggageDelay": false,
+      "rentalCarCoverage": false,
+      "purchaseProtection": false,
+      "extendedWarranty": false
+    },
+    "foreignTransactionFee": true,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 280,
+    "bestFor": "2% flat cash back that converts to ThankYou points with a premium Citi card"
+  },
+  {
+    "id": "citi-custom-cash",
+    "name": "Citi Custom Cash Card",
+    "issuer": "Citi",
+    "network": "Mastercard",
+    "type": "personal",
+    "categoryGroup": "cashback",
+    "category": "Custom Categories",
+    "annualFee": 0,
+    "rewardsProgram": "Citi ThankYou",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 200,
+      "minSpend": 1500,
+      "timeframeDays": 180,
+      "estimatedValue": 200
+    },
+    "earningRates": [
+      {
+        "category": "all",
+        "multiplier": 5,
+        "notes": "5% on top spend category each billing cycle (up to $500/month)"
+      },
+      {
+        "category": "other",
+        "multiplier": 1
+      }
+    ],
+    "credits": [],
+    "transferPartners": [
+      "Wyndham Rewards",
+      "JetBlue TrueBlue",
+      "Turkish Airlines Miles&Smiles",
+      "Avianca LifeMiles",
+      "Singapore Airlines KrisFlyer"
+    ],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripCancellation": false,
+      "tripDelay": false,
+      "baggageDelay": false,
+      "rentalCarCoverage": false,
+      "purchaseProtection": false,
+      "extendedWarranty": false
+    },
+    "foreignTransactionFee": true,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 300,
+    "bestFor": "Auto-adjusting 5% on your top spend category each month"
+  },
+  {
+    "id": "wells-fargo-active-cash",
+    "name": "Wells Fargo Active Cash Card",
+    "issuer": "Wells Fargo",
+    "network": "Visa",
+    "type": "personal",
+    "categoryGroup": "cashback",
+    "category": "Flat Rate",
+    "annualFee": 0,
+    "rewardsProgram": "Wells Fargo Cash Back",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 200,
+      "minSpend": 500,
+      "timeframeDays": 90,
+      "estimatedValue": 200
+    },
+    "earningRates": [
+      {
+        "category": "all",
+        "multiplier": 2,
+        "notes": "2% cash rewards on all purchases"
+      }
+    ],
+    "credits": [],
+    "transferPartners": [],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripCancellation": false,
+      "tripDelay": false,
+      "baggageDelay": false,
+      "rentalCarCoverage": false,
+      "purchaseProtection": true,
+      "extendedWarranty": true
+    },
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 300,
+    "bestFor": "Top flat-rate 2% cash back with no annual fee"
+  },
+  {
+    "id": "discover-it-cash-back",
+    "name": "Discover it\u00ae Cash Back",
+    "issuer": "Discover",
+    "network": "Discover",
+    "type": "personal",
+    "categoryGroup": "cashback",
+    "category": [
+      "cash_back"
+    ],
+    "annualFee": 0,
+    "rewardsProgram": "Discover Cash Back",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 0,
+      "minSpend": 0,
+      "timeframeDays": 365,
+      "estimatedValue": 0
+    },
+    "earningRates": [
+      {
+        "category": "all",
+        "multiplier": 5,
+        "notes": "Rotating quarterly categories up to $1,500/qtr \u2014 must activate"
+      },
+      {
+        "category": "all",
+        "multiplier": 1,
+        "notes": "All other purchases"
+      }
+    ],
+    "credits": [],
+    "transferPartners": [],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripDelay": false,
+      "baggageInsurance": false,
+      "rentalCar": false,
+      "purchaseProtection": false,
+      "extendedWarranty": false
+    },
+    "hotelStatus": [],
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "fair",
+    "estimatedAnnualValue": 300,
+    "bestFor": "Year-one value seekers \u2014 Cashback Match doubles all earnings in the first 12 months"
+  },
+  {
+    "id": "amex-blue-cash-preferred",
+    "name": "Blue Cash Preferred Card from American Express",
+    "issuer": "American Express",
+    "network": "Amex",
+    "type": "personal",
+    "categoryGroup": "cashback",
+    "category": "Bonus Categories",
+    "annualFee": 95,
+    "rewardsProgram": "Amex Cash Back",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 250,
+      "minSpend": 3000,
+      "timeframeDays": 180,
+      "estimatedValue": 250
+    },
+    "earningRates": [
+      {
+        "category": "all",
+        "multiplier": 6,
+        "notes": "6% at U.S. supermarkets (up to $6,000/yr, then 1%)"
+      },
+      {
+        "category": "all",
+        "multiplier": 6,
+        "notes": "6% on select U.S. streaming services"
+      },
+      {
+        "category": "all",
+        "multiplier": 3,
+        "notes": "3% on transit & U.S. gas stations"
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [
+      {
+        "id": "disney-bundle",
+        "name": "Disney Bundle Credit ($7/mo)",
+        "merchant": "Disney+/Hulu/ESPN+",
+        "amount": 84,
+        "frequency": "annual"
+      }
+    ],
+    "transferPartners": [],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripCancellation": false,
+      "tripDelay": false,
+      "baggageDelay": false,
+      "rentalCarCoverage": false,
+      "purchaseProtection": true,
+      "extendedWarranty": true
+    },
+    "foreignTransactionFee": true,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 500,
+    "bestFor": "Groceries and streaming maximizers \u2014 best 6% supermarket card"
+  },
+  {
+    "id": "amex-blue-cash-everyday",
+    "name": "Blue Cash Everyday\u00ae Card from American Express",
+    "issuer": "American Express",
+    "network": "Amex",
+    "type": "personal",
+    "categoryGroup": "cashback",
+    "category": [
+      "cash_back"
+    ],
+    "annualFee": 0,
+    "rewardsProgram": "Amex Cash Back",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 0,
+      "minSpend": 2000,
+      "timeframeDays": 180,
+      "estimatedValue": 200
+    },
+    "earningRates": [
+      {
+        "category": "groceries",
+        "multiplier": 3,
+        "notes": "U.S. supermarkets up to $6,000/yr"
+      },
+      {
+        "category": "online_retail",
+        "multiplier": 3,
+        "notes": "U.S. online retail purchases up to $6,000/yr"
+      },
+      {
+        "category": "gas",
+        "multiplier": 3,
+        "notes": "U.S. gas stations up to $6,000/yr"
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [
+      {
+        "id": "disney-bundle",
+        "name": "Disney Bundle Credit",
+        "amount": 84,
+        "frequency": "annual",
+        "splits": [
+          {
+            "amount": 7,
+            "period": "Monthly"
+          }
+        ],
+        "merchant": "Eligible Disney Bundle subscription",
+        "category": "streaming"
+      }
+    ],
+    "transferPartners": [],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripDelay": false,
+      "baggageInsurance": false,
+      "rentalCar": false,
+      "purchaseProtection": false,
+      "extendedWarranty": false
+    },
+    "hotelStatus": [],
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 250,
+    "bestFor": "No-fee grocery and gas earner \u2014 lighter version of Blue Cash Preferred for moderate spenders"
+  },
+  {
+    "id": "capital-one-savor",
+    "name": "Capital One Savor Cash Rewards Credit Card",
+    "issuer": "Capital One",
+    "network": "Mastercard",
+    "type": "personal",
+    "categoryGroup": "cashback",
+    "category": [
+      "cash_back",
+      "dining"
+    ],
+    "annualFee": 0,
+    "rewardsProgram": "Capital One Cash Back",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 0,
+      "minSpend": 500,
+      "timeframeDays": 90,
+      "estimatedValue": 200
+    },
+    "earningRates": [
+      {
+        "category": "entertainment",
+        "multiplier": 8,
+        "notes": "Capital One Entertainment purchases"
+      },
+      {
+        "category": "hotels",
+        "multiplier": 5,
+        "notes": "Hotels, vacation rentals & rental cars via Capital One Travel"
+      },
+      {
+        "category": "dining",
+        "multiplier": 3,
+        "notes": "Dining, entertainment, grocery stores (excl. Walmart/Target), popular streaming"
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [],
+    "transferPartners": [],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripDelay": false,
+      "baggageInsurance": false,
+      "rentalCar": false,
+      "purchaseProtection": false,
+      "extendedWarranty": true
+    },
+    "hotelStatus": [],
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 350,
+    "bestFor": "Dining, entertainment and streaming enthusiasts \u2014 especially powerful paired with Venture X for mile conversion"
+  },
+  {
+    "id": "capital-one-savorone",
+    "name": "Capital One SavorOne Cash Rewards Credit Card",
+    "issuer": "Capital One",
+    "network": "Mastercard",
+    "type": "personal",
+    "categoryGroup": "cashback",
+    "category": [
+      "cash_back",
+      "dining"
+    ],
+    "annualFee": 0,
+    "rewardsProgram": "Capital One Cash Back",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 0,
+      "minSpend": 500,
+      "timeframeDays": 90,
+      "estimatedValue": 200
+    },
+    "earningRates": [
+      {
+        "category": "entertainment",
+        "multiplier": 8,
+        "notes": "Capital One Entertainment purchases"
+      },
+      {
+        "category": "hotels",
+        "multiplier": 5,
+        "notes": "Hotels, vacation rentals & rental cars via Capital One Travel"
+      },
+      {
+        "category": "dining",
+        "multiplier": 3,
+        "notes": "Dining, entertainment, grocery stores (excl. Walmart/Target), popular streaming"
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [],
+    "transferPartners": [],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripDelay": false,
+      "baggageInsurance": false,
+      "rentalCar": false,
+      "purchaseProtection": false,
+      "extendedWarranty": false
+    },
+    "hotelStatus": [],
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 300,
+    "bestFor": "No-fee version of Savor \u2014 identical rewards for those not wanting an annual fee"
+  },
+  {
+    "id": "chase-ink-business-cash",
+    "name": "Ink Business Cash Credit Card",
+    "issuer": "Chase",
+    "network": "Visa",
+    "type": "business",
+    "categoryGroup": "business",
+    "category": "Cash Back",
+    "annualFee": 0,
+    "rewardsProgram": "Chase Ultimate Rewards",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 350,
+      "minSpend": 3000,
+      "timeframeDays": 90,
+      "estimatedValue": 350
+    },
+    "earningRates": [
+      {
+        "category": "telecom",
+        "multiplier": 5,
+        "notes": "Internet, cable, phone (up to $25K/yr)"
+      },
+      {
+        "category": "all",
+        "multiplier": 5,
+        "notes": "Office supply stores (up to $25K/yr)"
+      },
+      {
+        "category": "dining",
+        "multiplier": 2
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [],
+    "transferPartners": [
+      "United MileagePlus",
+      "Southwest Rapid Rewards",
+      "Hyatt",
+      "Marriott Bonvoy",
+      "British Airways Avios",
+      "Air France KLM Flying Blue",
+      "Singapore Airlines KrisFlyer"
+    ],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripCancellation": false,
+      "tripDelay": false,
+      "baggageDelay": false,
+      "rentalCarCoverage": true,
+      "purchaseProtection": true,
+      "extendedWarranty": true
+    },
+    "foreignTransactionFee": true,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 450,
+    "bestFor": "No-fee business card with 5% on telecom and office supplies"
+  },
+  {
+    "id": "amex-blue-business-cash",
+    "name": "The American Express Blue Business Cash\u2122 Card",
+    "issuer": "American Express",
+    "network": "Amex",
+    "type": "business",
+    "categoryGroup": "business",
+    "category": [
+      "cash_back",
+      "business"
+    ],
+    "annualFee": 0,
+    "rewardsProgram": "Amex Cash Back",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 0,
+      "minSpend": 3000,
+      "timeframeDays": 90,
+      "estimatedValue": 250
+    },
+    "earningRates": [
+      {
+        "category": "all",
+        "multiplier": 2,
+        "notes": "All eligible purchases up to $50,000/yr, then 1%"
+      }
+    ],
+    "credits": [],
+    "transferPartners": [],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripDelay": false,
+      "baggageInsurance": false,
+      "rentalCar": false,
+      "purchaseProtection": false,
+      "extendedWarranty": false
+    },
+    "hotelStatus": [],
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 300,
+    "bestFor": "No-fee 2% cash back on everything for businesses spending under $50K/yr"
+  },
+  {
+    "id": "bofa-business-advantage-cash",
+    "name": "Bank of America\u00ae Business Advantage Customized Cash Rewards",
+    "issuer": "Bank of America",
+    "network": "Mastercard",
+    "type": "business",
+    "categoryGroup": "business",
+    "category": [
+      "cash_back",
+      "business"
+    ],
+    "annualFee": 0,
+    "rewardsProgram": "Bank of America Cash Back",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 0,
+      "minSpend": 5000,
+      "timeframeDays": 90,
+      "estimatedValue": 500
+    },
+    "earningRates": [
+      {
+        "category": "gas",
+        "multiplier": 3,
+        "notes": "Chosen category (pick monthly): gas/EV, office supplies, travel, TV/telecom, computer services, or consulting \u2014 up to $50,000/yr combined"
+      },
+      {
+        "category": "dining",
+        "multiplier": 2,
+        "notes": "Dining up to $50,000/yr combined with 3% category"
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [],
+    "transferPartners": [],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripDelay": false,
+      "baggageInsurance": false,
+      "rentalCar": false,
+      "purchaseProtection": false,
+      "extendedWarranty": false
+    },
+    "hotelStatus": [],
+    "foreignTransactionFee": true,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 400,
+    "bestFor": "Bank of America business customers wanting a customizable no-fee category card"
+  },
+  {
+    "id": "us-bank-business-triple-cash",
+    "name": "U.S. Bank Business Triple Cash Rewards Visa\u00ae",
+    "issuer": "U.S. Bank",
+    "network": "Visa",
+    "type": "business",
+    "categoryGroup": "business",
+    "category": [
+      "cash_back",
+      "business"
+    ],
+    "annualFee": 0,
+    "rewardsProgram": "U.S. Bank Cash Back",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 0,
+      "minSpend": 4500,
+      "timeframeDays": 150,
+      "estimatedValue": 500
+    },
+    "earningRates": [
+      {
+        "category": "hotels",
+        "multiplier": 5,
+        "notes": "Prepaid hotels & car rentals via US Bank Travel Center"
+      },
+      {
+        "category": "gas",
+        "multiplier": 3,
+        "notes": "Gas/EV charging, office supply stores, cell phone service, restaurants"
+      },
+      {
+        "category": "office_supplies",
+        "multiplier": 3,
+        "notes": "Office supply stores"
+      },
+      {
+        "category": "dining",
+        "multiplier": 3,
+        "notes": "Restaurants"
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [
+      {
+        "id": "software-credit",
+        "name": "Annual Software Subscription Credit",
+        "amount": 100,
+        "frequency": "annual",
+        "merchant": "FreshBooks, QuickBooks, etc.",
+        "category": "business"
+      }
+    ],
+    "transferPartners": [],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripDelay": false,
+      "baggageInsurance": false,
+      "rentalCar": false,
+      "purchaseProtection": false,
+      "extendedWarranty": false
+    },
+    "hotelStatus": [],
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 400,
+    "bestFor": "Businesses with significant spend at gas, office supplies, and restaurants \u2014 multi-category 3% with no fee"
+  },
+  {
+    "id": "amazon-business-prime-amex",
+    "name": "Amazon Business Prime American Express Card",
+    "issuer": "American Express",
+    "network": "Amex",
+    "type": "business",
+    "categoryGroup": "business",
+    "category": [
+      "cash_back",
+      "business"
+    ],
+    "annualFee": 0,
+    "rewardsProgram": "Amazon Cash Back / Rewards",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 0,
+      "minSpend": 0,
+      "timeframeDays": 0,
+      "estimatedValue": 125
+    },
+    "earningRates": [
+      {
+        "category": "online_retail",
+        "multiplier": 5,
+        "notes": "Amazon.com, Amazon Business, AWS \u2014 up to $120,000/yr with Prime"
+      },
+      {
+        "category": "dining",
+        "multiplier": 2,
+        "notes": "U.S. restaurants, gas stations, wireless phone services"
+      },
+      {
+        "category": "gas",
+        "multiplier": 2,
+        "notes": "U.S. gas stations"
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [],
+    "transferPartners": [],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripDelay": false,
+      "baggageInsurance": false,
+      "rentalCar": false,
+      "purchaseProtection": false,
+      "extendedWarranty": false
+    },
+    "hotelStatus": [],
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 400,
+    "bestFor": "Businesses with high Amazon.com or AWS spend \u2014 unmatched 5% return on those platforms"
+  },
+  {
+    "id": "delta-skymiles-blue",
+    "name": "Delta SkyMiles\u00ae Blue American Express Card",
+    "issuer": "American Express",
+    "network": "Amex",
+    "type": "personal",
+    "categoryGroup": "airline",
+    "category": [
+      "airline",
+      "travel"
+    ],
+    "annualFee": 0,
+    "rewardsProgram": "Delta SkyMiles",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 10000,
+      "minSpend": 1000,
+      "timeframeDays": 180,
+      "estimatedValue": 100
+    },
+    "earningRates": [
+      {
+        "category": "flights",
+        "multiplier": 2,
+        "notes": "Delta purchases"
+      },
+      {
+        "category": "dining",
+        "multiplier": 2,
+        "notes": "Restaurants worldwide & U.S. supermarkets"
+      },
+      {
+        "category": "groceries",
+        "multiplier": 2,
+        "notes": "U.S. supermarkets"
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [],
+    "transferPartners": [],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripDelay": false,
+      "baggageInsurance": false,
+      "rentalCar": false,
+      "purchaseProtection": false,
+      "extendedWarranty": false
+    },
+    "hotelStatus": [],
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 150,
+    "bestFor": "Casual Delta flyers who want miles on Delta and dining with no annual fee"
+  },
+  {
+    "id": "delta-skymiles-gold",
+    "name": "Delta SkyMiles\u00ae Gold American Express Card",
+    "issuer": "American Express",
+    "network": "Amex",
+    "type": "personal",
+    "categoryGroup": "airline",
+    "category": [
+      "airline",
+      "travel"
+    ],
+    "annualFee": 150,
+    "rewardsProgram": "Delta SkyMiles",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 90000,
+      "minSpend": 5000,
+      "timeframeDays": 180,
+      "estimatedValue": 900
+    },
+    "earningRates": [
+      {
+        "category": "flights",
+        "multiplier": 2,
+        "notes": "Delta purchases"
+      },
+      {
+        "category": "dining",
+        "multiplier": 2,
+        "notes": "Restaurants worldwide & U.S. supermarkets"
+      },
+      {
+        "category": "groceries",
+        "multiplier": 2,
+        "notes": "U.S. supermarkets"
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [
+      {
+        "id": "delta-flight-credit",
+        "name": "Delta Flight Credit",
+        "amount": 200,
+        "frequency": "annual",
+        "merchant": "Delta (after $10,000 spend/yr)",
+        "category": "travel"
+      }
+    ],
+    "transferPartners": [],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripDelay": false,
+      "baggageInsurance": true,
+      "rentalCar": false,
+      "purchaseProtection": false,
+      "extendedWarranty": false
+    },
+    "hotelStatus": [],
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 300,
+    "bestFor": "Occasional Delta flyers \u2014 free checked bags for a family more than offset the $150 fee"
+  },
+  {
+    "id": "delta-skymiles-platinum",
+    "name": "Delta SkyMiles\u00ae Platinum American Express Card",
+    "issuer": "American Express",
+    "network": "Amex",
+    "type": "personal",
+    "categoryGroup": "airline",
+    "category": [
+      "airline",
+      "travel"
+    ],
+    "annualFee": 350,
+    "rewardsProgram": "Delta SkyMiles",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 100000,
+      "minSpend": 6000,
+      "timeframeDays": 180,
+      "estimatedValue": 1000
+    },
+    "earningRates": [
+      {
+        "category": "flights",
+        "multiplier": 3,
+        "notes": "Delta purchases"
+      },
+      {
+        "category": "hotels",
+        "multiplier": 3,
+        "notes": "Hotels booked directly with hotel"
+      },
+      {
+        "category": "dining",
+        "multiplier": 2,
+        "notes": "Restaurants worldwide & U.S. supermarkets"
+      },
+      {
+        "category": "groceries",
+        "multiplier": 2,
+        "notes": "U.S. supermarkets"
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [
+      {
+        "id": "delta-stays-credit",
+        "name": "Delta Stays Hotel Credit",
+        "amount": 150,
+        "frequency": "annual",
+        "merchant": "Delta Stays hotel portal",
+        "category": "travel"
+      }
+    ],
+    "transferPartners": [],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripDelay": true,
+      "baggageInsurance": true,
+      "rentalCar": true,
+      "purchaseProtection": false,
+      "extendedWarranty": false
+    },
+    "hotelStatus": [],
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 400,
+    "bestFor": "Frequent Delta flyers \u2014 the annual Companion Certificate alone typically covers the $350 fee"
+  },
+  {
+    "id": "delta-skymiles-reserve",
+    "name": "Delta SkyMiles\u00ae Reserve American Express Card",
+    "issuer": "American Express",
+    "network": "Amex",
+    "type": "personal",
+    "categoryGroup": "airline",
+    "category": [
+      "airline",
+      "travel",
+      "luxury"
+    ],
+    "annualFee": 650,
+    "rewardsProgram": "Delta SkyMiles",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 100000,
+      "minSpend": 5000,
+      "timeframeDays": 180,
+      "estimatedValue": 1000
+    },
+    "earningRates": [
+      {
+        "category": "flights",
+        "multiplier": 3,
+        "notes": "Delta purchases"
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [
+      {
+        "id": "delta-stays-credit",
+        "name": "Delta Stays Hotel Credit",
+        "amount": 200,
+        "frequency": "annual",
+        "merchant": "Delta Stays hotel portal",
+        "category": "travel"
+      },
+      {
+        "id": "resy-credit",
+        "name": "Resy Dining Credit",
+        "amount": 120,
+        "frequency": "annual",
+        "splits": [
+          {
+            "amount": 10,
+            "period": "Monthly"
+          }
+        ],
+        "merchant": "Qualifying U.S. Resy restaurants",
+        "category": "dining"
+      },
+      {
+        "id": "uber-one",
+        "name": "Uber One Membership Credit",
+        "amount": 120,
+        "frequency": "annual",
+        "merchant": "Uber One (through June 2026)",
+        "category": "travel"
+      }
+    ],
+    "transferPartners": [],
+    "loungeAccess": {
+      "centurion": true,
+      "priorityPass": false,
+      "deltaClub": true,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripDelay": true,
+      "baggageInsurance": true,
+      "rentalCar": true,
+      "purchaseProtection": false,
+      "extendedWarranty": false
+    },
+    "hotelStatus": [],
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "excellent",
+    "estimatedAnnualValue": 500,
+    "bestFor": "Heavy Delta flyers who use the Sky Club 8+ times/year and want the premium Companion Certificate"
+  },
+  {
+    "id": "united-gateway",
+    "name": "United Gateway\u2120 Card",
+    "issuer": "Chase",
+    "network": "Visa",
+    "type": "personal",
+    "categoryGroup": "airline",
+    "category": [
+      "airline",
+      "travel"
+    ],
+    "annualFee": 0,
+    "rewardsProgram": "United MileagePlus",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 30000,
+      "minSpend": 1000,
+      "timeframeDays": 90,
+      "estimatedValue": 300
+    },
+    "earningRates": [
+      {
+        "category": "flights",
+        "multiplier": 2,
+        "notes": "United purchases"
+      },
+      {
+        "category": "gas",
+        "multiplier": 2,
+        "notes": "Gas stations & local transit/commuting"
+      },
+      {
+        "category": "transit",
+        "multiplier": 2,
+        "notes": "Local transit & commuting"
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [],
+    "transferPartners": [],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripDelay": false,
+      "baggageInsurance": false,
+      "rentalCar": false,
+      "purchaseProtection": false,
+      "extendedWarranty": false
+    },
+    "hotelStatus": [],
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 150,
+    "bestFor": "United flyers wanting a no-fee entry into MileagePlus earning"
+  },
+  {
+    "id": "united-explorer",
+    "name": "United\u2120 Explorer Card",
+    "issuer": "Chase",
+    "network": "Visa",
+    "type": "personal",
+    "categoryGroup": "airline",
+    "category": [
+      "airline",
+      "travel"
+    ],
+    "annualFee": 150,
+    "rewardsProgram": "United MileagePlus",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 90000,
+      "minSpend": 4000,
+      "timeframeDays": 90,
+      "estimatedValue": 900
+    },
+    "earningRates": [
+      {
+        "category": "flights",
+        "multiplier": 2,
+        "notes": "United purchases"
+      },
+      {
+        "category": "dining",
+        "multiplier": 2,
+        "notes": "Restaurants & hotel stays"
+      },
+      {
+        "category": "hotels",
+        "multiplier": 2,
+        "notes": "Hotel stays"
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [
+      {
+        "id": "global-entry",
+        "name": "Global Entry / TSA PreCheck / NEXUS Credit",
+        "amount": 120,
+        "frequency": "4_years",
+        "merchant": "CBP / TSA / NEXUS",
+        "category": "travel"
+      }
+    ],
+    "transferPartners": [],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripDelay": true,
+      "baggageInsurance": true,
+      "rentalCar": true,
+      "purchaseProtection": false,
+      "extendedWarranty": false
+    },
+    "hotelStatus": [],
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 350,
+    "bestFor": "Occasional United flyers \u2014 free bags plus 2 United Club passes plus award discounts justify the $150 fee"
+  },
+  {
+    "id": "united-quest",
+    "name": "United Quest\u2120 Card",
+    "issuer": "Chase",
+    "network": "Visa",
+    "type": "personal",
+    "categoryGroup": "airline",
+    "category": [
+      "airline",
+      "travel"
+    ],
+    "annualFee": 250,
+    "rewardsProgram": "United MileagePlus",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 90000,
+      "minSpend": 4000,
+      "timeframeDays": 90,
+      "estimatedValue": 900
+    },
+    "earningRates": [
+      {
+        "category": "flights",
+        "multiplier": 3,
+        "notes": "United purchases"
+      },
+      {
+        "category": "dining",
+        "multiplier": 2,
+        "notes": "Dining, select streaming & other travel"
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [
+      {
+        "id": "travel-bank-credit",
+        "name": "United TravelBank Credit",
+        "amount": 200,
+        "frequency": "annual",
+        "merchant": "United.com flights",
+        "category": "travel"
+      },
+      {
+        "id": "anniversary-miles",
+        "name": "Anniversary Bonus Miles",
+        "amount": 100,
+        "frequency": "annual",
+        "merchant": "10,000 miles (~$100 value)",
+        "category": "travel"
+      }
+    ],
+    "transferPartners": [],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripDelay": true,
+      "baggageInsurance": true,
+      "rentalCar": true,
+      "purchaseProtection": false,
+      "extendedWarranty": false
+    },
+    "hotelStatus": [],
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "very_good",
+    "estimatedAnnualValue": 400,
+    "bestFor": "Frequent United flyers \u2014 $200 travel credit plus anniversary miles effectively make the fee net $0"
+  },
+  {
+    "id": "united-club-infinite",
+    "name": "United Club\u2120 Infinite Card",
+    "issuer": "Chase",
+    "network": "Visa",
+    "type": "personal",
+    "categoryGroup": "airline",
+    "category": [
+      "airline",
+      "travel",
+      "luxury"
+    ],
+    "annualFee": 525,
+    "rewardsProgram": "United MileagePlus",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 100000,
+      "minSpend": 5000,
+      "timeframeDays": 90,
+      "estimatedValue": 1000
+    },
+    "earningRates": [
+      {
+        "category": "flights",
+        "multiplier": 4,
+        "notes": "United purchases"
+      },
+      {
+        "category": "dining",
+        "multiplier": 2,
+        "notes": "Dining & travel"
+      },
+      {
+        "category": "travel",
+        "multiplier": 2,
+        "notes": "All travel purchases"
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [
+      {
+        "id": "global-entry",
+        "name": "Global Entry / TSA PreCheck / NEXUS Credit",
+        "amount": 120,
+        "frequency": "4_years",
+        "merchant": "CBP / TSA / NEXUS",
+        "category": "travel"
+      }
+    ],
+    "transferPartners": [],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": true,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripDelay": true,
+      "baggageInsurance": true,
+      "rentalCar": true,
+      "purchaseProtection": false,
+      "extendedWarranty": false
+    },
+    "hotelStatus": [],
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "excellent",
+    "estimatedAnnualValue": 600,
+    "bestFor": "Dedicated United loyalists who fly 6+ times/year and want unlimited United Club lounge access"
+  },
+  {
+    "id": "aa-mileup",
+    "name": "American Airlines AAdvantage\u00ae MileUp\u00ae",
+    "issuer": "Citi",
+    "network": "Mastercard",
+    "type": "personal",
+    "categoryGroup": "airline",
+    "category": [
+      "airline",
+      "travel"
+    ],
+    "annualFee": 0,
+    "rewardsProgram": "American Airlines AAdvantage",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 15000,
+      "minSpend": 500,
+      "timeframeDays": 90,
+      "estimatedValue": 150
+    },
+    "earningRates": [
+      {
+        "category": "flights",
+        "multiplier": 2,
+        "notes": "American Airlines purchases"
+      },
+      {
+        "category": "groceries",
+        "multiplier": 2,
+        "notes": "Grocery stores"
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [],
+    "transferPartners": [],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripDelay": false,
+      "baggageInsurance": false,
+      "rentalCar": false,
+      "purchaseProtection": false,
+      "extendedWarranty": false
+    },
+    "hotelStatus": [],
+    "foreignTransactionFee": true,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 100,
+    "bestFor": "No-fee entry into AAdvantage ecosystem for casual AA flyers who buy groceries"
+  },
+  {
+    "id": "citi-aadvantage-platinum-select",
+    "name": "Citi\u00ae / AAdvantage\u00ae Platinum Select\u00ae World Elite Mastercard\u00ae",
+    "issuer": "Citi",
+    "network": "Mastercard",
+    "type": "personal",
+    "categoryGroup": "airline",
+    "category": [
+      "airline",
+      "travel"
+    ],
+    "annualFee": 99,
+    "rewardsProgram": "American Airlines AAdvantage",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 50000,
+      "minSpend": 2500,
+      "timeframeDays": 90,
+      "estimatedValue": 500
+    },
+    "earningRates": [
+      {
+        "category": "flights",
+        "multiplier": 2,
+        "notes": "American Airlines purchases"
+      },
+      {
+        "category": "dining",
+        "multiplier": 2,
+        "notes": "Restaurants & gas stations"
+      },
+      {
+        "category": "gas",
+        "multiplier": 2,
+        "notes": "Gas stations"
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [
+      {
+        "id": "aa-flight-discount",
+        "name": "AA Flight Discount",
+        "amount": 125,
+        "frequency": "annual",
+        "merchant": "American Airlines (after $20K spend + renewal)",
+        "category": "travel"
+      }
+    ],
+    "transferPartners": [],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripDelay": false,
+      "baggageInsurance": false,
+      "rentalCar": false,
+      "purchaseProtection": false,
+      "extendedWarranty": false
+    },
+    "hotelStatus": [],
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 250,
+    "bestFor": "Moderate AA flyers \u2014 free checked bags alone justify the $99 fee for anyone who checks bags on American"
+  },
+  {
+    "id": "citi-aadvantage-executive",
+    "name": "Citi\u00ae / AAdvantage\u00ae Executive World Elite Mastercard\u00ae",
+    "issuer": "Citi",
+    "network": "Mastercard",
+    "type": "personal",
+    "categoryGroup": "airline",
+    "category": "American Airlines",
+    "annualFee": 595,
+    "rewardsProgram": "AA AAdvantage",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 70000,
+      "minSpend": 7000,
+      "timeframeDays": 90,
+      "estimatedValue": 980
+    },
+    "earningRates": [
+      {
+        "category": "flights",
+        "multiplier": 4,
+        "notes": "American Airlines purchases"
+      },
+      {
+        "category": "hotels",
+        "multiplier": 10,
+        "notes": "Hotels.com / Booking.com"
+      },
+      {
+        "category": "dining",
+        "multiplier": 4
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [
+      {
+        "id": "admirals-club",
+        "name": "Admirals Club Membership",
+        "merchant": "American Airlines",
+        "amount": 850,
+        "frequency": "annual"
+      },
+      {
+        "id": "global-entry",
+        "name": "Global Entry / TSA PreCheck",
+        "merchant": "Various",
+        "amount": 120,
+        "frequency": "4years"
+      }
+    ],
+    "transferPartners": [],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": true,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripCancellation": true,
+      "tripDelay": true,
+      "baggageDelay": true,
+      "rentalCarCoverage": true,
+      "purchaseProtection": true,
+      "extendedWarranty": true
+    },
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "excellent",
+    "estimatedAnnualValue": 1580,
+    "bestFor": "Admirals Club access + AA elite status pursuit"
+  },
+  {
+    "id": "southwest-plus",
+    "name": "Southwest Rapid Rewards\u00ae Plus Credit Card",
+    "issuer": "Chase",
+    "network": "Visa",
+    "type": "personal",
+    "categoryGroup": "airline",
+    "category": "Southwest",
+    "annualFee": 69,
+    "rewardsProgram": "Southwest Rapid Rewards",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 50000,
+      "minSpend": 1000,
+      "timeframeDays": 90,
+      "estimatedValue": 700
+    },
+    "earningRates": [
+      {
+        "category": "flights",
+        "multiplier": 2,
+        "notes": "Southwest purchases"
+      },
+      {
+        "category": "hotels",
+        "multiplier": 2,
+        "notes": "Hotel & car partners"
+      },
+      {
+        "category": "dining",
+        "multiplier": 2
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [
+      {
+        "id": "anniversary-points",
+        "name": "Anniversary Points Bonus",
+        "merchant": "Southwest",
+        "amount": 84,
+        "frequency": "annual",
+        "notes": "3,000 points each year"
+      }
+    ],
+    "transferPartners": [],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripCancellation": true,
+      "tripDelay": true,
+      "baggageDelay": true,
+      "rentalCarCoverage": false,
+      "purchaseProtection": false,
+      "extendedWarranty": true
+    },
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 350,
+    "bestFor": "Entry-level Southwest card for Companion Pass earners"
+  },
+  {
+    "id": "southwest-premier",
+    "name": "Southwest Rapid Rewards\u00ae Premier Credit Card",
+    "issuer": "Chase",
+    "network": "Visa",
+    "type": "personal",
+    "categoryGroup": "airline",
+    "category": "Southwest",
+    "annualFee": 149,
+    "rewardsProgram": "Southwest Rapid Rewards",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 50000,
+      "minSpend": 1000,
+      "timeframeDays": 90,
+      "estimatedValue": 700
+    },
+    "earningRates": [
+      {
+        "category": "flights",
+        "multiplier": 3,
+        "notes": "Southwest purchases"
+      },
+      {
+        "category": "hotels",
+        "multiplier": 2,
+        "notes": "Hotel & car partners"
+      },
+      {
+        "category": "dining",
+        "multiplier": 2
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [
+      {
+        "id": "anniversary-points",
+        "name": "Anniversary Points Bonus",
+        "merchant": "Southwest",
+        "amount": 112,
+        "frequency": "annual",
+        "notes": "4,000 points each year"
+      }
+    ],
+    "transferPartners": [],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripCancellation": true,
+      "tripDelay": true,
+      "baggageDelay": true,
+      "rentalCarCoverage": false,
+      "purchaseProtection": false,
+      "extendedWarranty": true
+    },
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 450,
+    "bestFor": "Mid-tier Southwest card with stronger earning on SW flights"
+  },
+  {
+    "id": "southwest-priority",
+    "name": "Southwest Rapid Rewards\u00ae Priority Credit Card",
+    "issuer": "Chase",
+    "network": "Visa",
+    "type": "personal",
+    "categoryGroup": "airline",
+    "category": "Southwest",
+    "annualFee": 149,
+    "rewardsProgram": "Southwest Rapid Rewards",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 50000,
+      "minSpend": 1000,
+      "timeframeDays": 90,
+      "estimatedValue": 700
+    },
+    "earningRates": [
+      {
+        "category": "flights",
+        "multiplier": 3,
+        "notes": "Southwest purchases"
+      },
+      {
+        "category": "hotels",
+        "multiplier": 2,
+        "notes": "Hotel & car partners"
+      },
+      {
+        "category": "dining",
+        "multiplier": 2
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [
+      {
+        "id": "sw-travel-credit",
+        "name": "Southwest Travel Credit",
+        "merchant": "Southwest Airlines",
+        "amount": 75,
+        "frequency": "annual"
+      },
+      {
+        "id": "anniversary-points",
+        "name": "Anniversary Points Bonus",
+        "merchant": "Southwest",
+        "amount": 196,
+        "frequency": "annual",
+        "notes": "7,500 points each year"
+      },
+      {
+        "id": "upgraded-boardings",
+        "name": "4 Upgraded Boardings",
+        "merchant": "Southwest Airlines",
+        "amount": 80,
+        "frequency": "annual"
+      }
+    ],
+    "transferPartners": [],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripCancellation": true,
+      "tripDelay": true,
+      "baggageDelay": true,
+      "rentalCarCoverage": false,
+      "purchaseProtection": false,
+      "extendedWarranty": true
+    },
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 650,
+    "bestFor": "Best Southwest card \u2014 travel credit + upgraded boardings"
+  },
+  {
+    "id": "chase-aeroplan",
+    "name": "Aeroplan\u00ae Credit Card",
+    "issuer": "Chase",
+    "network": "Visa",
+    "type": "personal",
+    "categoryGroup": "airline",
+    "category": "Air Canada",
+    "annualFee": 95,
+    "rewardsProgram": "Aeroplan",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 70000,
+      "minSpend": 3000,
+      "timeframeDays": 90,
+      "estimatedValue": 1050
+    },
+    "earningRates": [
+      {
+        "category": "flights",
+        "multiplier": 3,
+        "notes": "Air Canada purchases"
+      },
+      {
+        "category": "dining",
+        "multiplier": 3
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [
+      {
+        "id": "global-entry",
+        "name": "Global Entry / TSA PreCheck",
+        "merchant": "Various",
+        "amount": 120,
+        "frequency": "4years"
+      },
+      {
+        "id": "free-checked-bag",
+        "name": "Free First Checked Bag",
+        "merchant": "Air Canada",
+        "amount": 60,
+        "frequency": "annual",
+        "notes": "For you + up to 8 companions"
+      }
+    ],
+    "transferPartners": [
+      "Air Canada Aeroplan",
+      "United MileagePlus",
+      "Avianca LifeMiles"
+    ],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripCancellation": true,
+      "tripDelay": true,
+      "baggageDelay": true,
+      "rentalCarCoverage": true,
+      "purchaseProtection": true,
+      "extendedWarranty": true
+    },
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 700,
+    "bestFor": "Star Alliance redemptions via Aeroplan sweet spots"
+  },
+  {
+    "id": "alaska-airlines-visa",
+    "name": "Alaska Airlines Visa Signature\u00ae Credit Card",
+    "issuer": "Bank of America",
+    "network": "Visa",
+    "type": "personal",
+    "categoryGroup": "airline",
+    "category": "Alaska Airlines",
+    "annualFee": 95,
+    "rewardsProgram": "Alaska Mileage Plan",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 60000,
+      "minSpend": 3000,
+      "timeframeDays": 90,
+      "estimatedValue": 840
+    },
+    "earningRates": [
+      {
+        "category": "flights",
+        "multiplier": 3,
+        "notes": "Alaska Airlines purchases"
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [
+      {
+        "id": "companion-fare",
+        "name": "Companion Fare ($99 + taxes)",
+        "merchant": "Alaska Airlines",
+        "amount": 200,
+        "frequency": "annual"
+      },
+      {
+        "id": "free-checked-bag",
+        "name": "Free First Checked Bag",
+        "merchant": "Alaska Airlines",
+        "amount": 60,
+        "frequency": "annual"
+      }
+    ],
+    "transferPartners": [
+      "Alaska Mileage Plan"
+    ],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripCancellation": true,
+      "tripDelay": true,
+      "baggageDelay": true,
+      "rentalCarCoverage": true,
+      "purchaseProtection": false,
+      "extendedWarranty": true
+    },
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 620,
+    "bestFor": "Alaska Mileage Plan miles + annual companion fare"
+  },
+  {
+    "id": "jetblue-plus",
+    "name": "JetBlue Plus Card",
+    "issuer": "Barclays",
+    "network": "Mastercard",
+    "type": "personal",
+    "categoryGroup": "airline",
+    "category": "JetBlue",
+    "annualFee": 99,
+    "rewardsProgram": "JetBlue TrueBlue",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 60000,
+      "minSpend": 1000,
+      "timeframeDays": 90,
+      "estimatedValue": 780
+    },
+    "earningRates": [
+      {
+        "category": "flights",
+        "multiplier": 6,
+        "notes": "JetBlue purchases"
+      },
+      {
+        "category": "dining",
+        "multiplier": 2
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [
+      {
+        "id": "jetblue-credit",
+        "name": "JetBlue Travel Credit",
+        "merchant": "JetBlue",
+        "amount": 100,
+        "frequency": "annual"
+      },
+      {
+        "id": "mosaic-status",
+        "name": "Mosaic Status Boost",
+        "merchant": "JetBlue",
+        "amount": 0,
+        "frequency": "annual",
+        "notes": "Spend $50K to earn Mosaic status"
+      }
+    ],
+    "transferPartners": [
+      "JetBlue TrueBlue"
+    ],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripCancellation": false,
+      "tripDelay": false,
+      "baggageDelay": false,
+      "rentalCarCoverage": false,
+      "purchaseProtection": false,
+      "extendedWarranty": true
+    },
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 450,
+    "bestFor": "JetBlue loyalists \u2014 6x on JetBlue + travel credit"
+  },
+  {
+    "id": "marriott-bonvoy-bold",
+    "name": "Marriott Bonvoy Bold\u00ae Credit Card",
+    "issuer": "Chase",
+    "network": "Visa",
+    "type": "personal",
+    "categoryGroup": "hotel",
+    "category": "Marriott",
+    "annualFee": 0,
+    "rewardsProgram": "Marriott Bonvoy",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 60000,
+      "minSpend": 2000,
+      "timeframeDays": 90,
+      "estimatedValue": 480
+    },
+    "earningRates": [
+      {
+        "category": "hotels",
+        "multiplier": 3,
+        "notes": "Marriott Bonvoy hotels"
+      },
+      {
+        "category": "travel",
+        "multiplier": 2
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [],
+    "transferPartners": [
+      "Marriott Bonvoy",
+      "United MileagePlus",
+      "Delta SkyMiles",
+      "AA AAdvantage",
+      "British Airways Avios",
+      "Air France KLM Flying Blue"
+    ],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripCancellation": false,
+      "tripDelay": false,
+      "baggageDelay": false,
+      "rentalCarCoverage": false,
+      "purchaseProtection": false,
+      "extendedWarranty": true
+    },
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "fair",
+    "estimatedAnnualValue": 220,
+    "bestFor": "No-fee entry into Marriott Bonvoy ecosystem"
+  },
+  {
+    "id": "marriott-bonvoy-boundless",
+    "name": "Marriott Bonvoy Boundless\u00ae Credit Card",
+    "issuer": "Chase",
+    "network": "Visa",
+    "type": "personal",
+    "categoryGroup": "hotel",
+    "category": "Marriott",
+    "annualFee": 95,
+    "rewardsProgram": "Marriott Bonvoy",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 100000,
+      "minSpend": 3000,
+      "timeframeDays": 90,
+      "estimatedValue": 800
+    },
+    "earningRates": [
+      {
+        "category": "hotels",
+        "multiplier": 6,
+        "notes": "Marriott Bonvoy hotels"
+      },
+      {
+        "category": "all",
+        "multiplier": 2
+      }
+    ],
+    "credits": [
+      {
+        "id": "free-night",
+        "name": "Free Night Award (up to 35K pts)",
+        "merchant": "Marriott Bonvoy",
+        "amount": 200,
+        "frequency": "annual"
+      }
+    ],
+    "transferPartners": [
+      "Marriott Bonvoy",
+      "United MileagePlus",
+      "Delta SkyMiles",
+      "AA AAdvantage",
+      "British Airways Avios",
+      "Air France KLM Flying Blue"
+    ],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripCancellation": true,
+      "tripDelay": true,
+      "baggageDelay": true,
+      "rentalCarCoverage": true,
+      "purchaseProtection": false,
+      "extendedWarranty": true
+    },
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 500,
+    "bestFor": "Free night award + Silver Elite status automatically"
+  },
+  {
+    "id": "marriott-bonvoy-brilliant",
+    "name": "Marriott Bonvoy Brilliant\u00ae American Express\u00ae Card",
+    "issuer": "American Express",
+    "network": "Amex",
+    "type": "personal",
+    "categoryGroup": "hotel",
+    "category": "Marriott",
+    "annualFee": 650,
+    "rewardsProgram": "Marriott Bonvoy",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 150000,
+      "minSpend": 6000,
+      "timeframeDays": 90,
+      "estimatedValue": 1200
+    },
+    "earningRates": [
+      {
+        "category": "hotels",
+        "multiplier": 6,
+        "notes": "Marriott Bonvoy hotels"
+      },
+      {
+        "category": "dining",
+        "multiplier": 3
+      },
+      {
+        "category": "flights",
+        "multiplier": 3
+      },
+      {
+        "category": "all",
+        "multiplier": 2
+      }
+    ],
+    "credits": [
+      {
+        "id": "dining-credit",
+        "name": "Dining Credit",
+        "merchant": "Restaurants worldwide",
+        "amount": 300,
+        "frequency": "annual"
+      },
+      {
+        "id": "free-night-85k",
+        "name": "Free Night Award (up to 85K pts)",
+        "merchant": "Marriott Bonvoy",
+        "amount": 400,
+        "frequency": "annual"
+      },
+      {
+        "id": "global-entry",
+        "name": "Global Entry / TSA PreCheck",
+        "merchant": "Various",
+        "amount": 120,
+        "frequency": "4years"
+      }
+    ],
+    "transferPartners": [
+      "Marriott Bonvoy",
+      "United MileagePlus",
+      "Delta SkyMiles",
+      "AA AAdvantage",
+      "British Airways Avios",
+      "Air France KLM Flying Blue",
+      "Singapore Airlines KrisFlyer"
+    ],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": true,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripCancellation": true,
+      "tripDelay": true,
+      "baggageDelay": true,
+      "rentalCarCoverage": true,
+      "purchaseProtection": true,
+      "extendedWarranty": true
+    },
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "excellent",
+    "estimatedAnnualValue": 1400,
+    "bestFor": "Marriott loyalists \u2014 Platinum Elite status + free night + dining credit"
+  },
+  {
+    "id": "hilton-honors-amex",
+    "name": "Hilton Honors American Express Card",
+    "issuer": "American Express",
+    "network": "Amex",
+    "type": "personal",
+    "categoryGroup": "hotel",
+    "category": "Hilton",
+    "annualFee": 0,
+    "rewardsProgram": "Hilton Honors",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 100000,
+      "minSpend": 2000,
+      "timeframeDays": 90,
+      "estimatedValue": 600
+    },
+    "earningRates": [
+      {
+        "category": "hotels",
+        "multiplier": 7,
+        "notes": "Hilton hotels & resorts"
+      },
+      {
+        "category": "dining",
+        "multiplier": 5
+      },
+      {
+        "category": "all",
+        "multiplier": 3
+      }
+    ],
+    "credits": [],
+    "transferPartners": [
+      "Hilton Honors"
+    ],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripCancellation": false,
+      "tripDelay": false,
+      "baggageDelay": false,
+      "rentalCarCoverage": false,
+      "purchaseProtection": false,
+      "extendedWarranty": true
+    },
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "fair",
+    "estimatedAnnualValue": 250,
+    "bestFor": "No-fee entry into Hilton Honors with solid earning rates"
+  },
+  {
+    "id": "hilton-honors-surpass",
+    "name": "Hilton Honors American Express Surpass\u00ae Card",
+    "issuer": "American Express",
+    "network": "Amex",
+    "type": "personal",
+    "categoryGroup": "hotel",
+    "category": "Hilton",
+    "annualFee": 150,
+    "rewardsProgram": "Hilton Honors",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 165000,
+      "minSpend": 3000,
+      "timeframeDays": 90,
+      "estimatedValue": 990
+    },
+    "earningRates": [
+      {
+        "category": "hotels",
+        "multiplier": 12,
+        "notes": "Hilton hotels & resorts"
+      },
+      {
+        "category": "dining",
+        "multiplier": 6
+      },
+      {
+        "category": "all",
+        "multiplier": 3
+      }
+    ],
+    "credits": [
+      {
+        "id": "hilton-resort-credit",
+        "name": "Hilton Resort Credit",
+        "merchant": "Hilton Resorts",
+        "amount": 100,
+        "frequency": "annual"
+      },
+      {
+        "id": "free-night-reward",
+        "name": "Free Night Reward",
+        "merchant": "Hilton Hotels",
+        "amount": 150,
+        "frequency": "annual",
+        "notes": "After $15K spend in calendar year"
+      }
+    ],
+    "transferPartners": [
+      "Hilton Honors"
+    ],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": true,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripCancellation": false,
+      "tripDelay": false,
+      "baggageDelay": false,
+      "rentalCarCoverage": false,
+      "purchaseProtection": false,
+      "extendedWarranty": true
+    },
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 650,
+    "bestFor": "Hilton Gold status + Priority Pass + strong hotel earning"
+  },
+  {
+    "id": "hilton-honors-aspire",
+    "name": "Hilton Honors American Express Aspire Card",
+    "issuer": "American Express",
+    "network": "Amex",
+    "type": "personal",
+    "categoryGroup": "hotel",
+    "category": "Hilton",
+    "annualFee": 550,
+    "rewardsProgram": "Hilton Honors",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 175000,
+      "minSpend": 6000,
+      "timeframeDays": 90,
+      "estimatedValue": 1050
+    },
+    "earningRates": [
+      {
+        "category": "hotels",
+        "multiplier": 14,
+        "notes": "Hilton hotels & resorts"
+      },
+      {
+        "category": "flights",
+        "multiplier": 7
+      },
+      {
+        "category": "dining",
+        "multiplier": 7
+      },
+      {
+        "category": "all",
+        "multiplier": 3
+      }
+    ],
+    "credits": [
+      {
+        "id": "hilton-resort-credit",
+        "name": "Hilton Resort Credit",
+        "merchant": "Hilton Resorts",
+        "amount": 200,
+        "frequency": "annual"
+      },
+      {
+        "id": "flight-credit",
+        "name": "Flight Credit",
+        "merchant": "Airlines",
+        "amount": 50,
+        "frequency": "annual"
+      },
+      {
+        "id": "free-night-reward",
+        "name": "Free Night Reward (up to 150K pts)",
+        "merchant": "Hilton Hotels",
+        "amount": 500,
+        "frequency": "annual"
+      }
+    ],
+    "transferPartners": [
+      "Hilton Honors"
+    ],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": true,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripCancellation": true,
+      "tripDelay": true,
+      "baggageDelay": true,
+      "rentalCarCoverage": true,
+      "purchaseProtection": true,
+      "extendedWarranty": true
+    },
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "excellent",
+    "estimatedAnnualValue": 1300,
+    "bestFor": "Hilton Diamond status + free night + resort credits"
+  },
+  {
+    "id": "world-of-hyatt",
+    "name": "World of Hyatt Credit Card",
+    "issuer": "Chase",
+    "network": "Visa",
+    "type": "personal",
+    "categoryGroup": "hotel",
+    "category": "Hyatt",
+    "annualFee": 95,
+    "rewardsProgram": "World of Hyatt",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 60000,
+      "minSpend": 3000,
+      "timeframeDays": 90,
+      "estimatedValue": 900
+    },
+    "earningRates": [
+      {
+        "category": "hotels",
+        "multiplier": 9,
+        "notes": "Hyatt hotels"
+      },
+      {
+        "category": "dining",
+        "multiplier": 2
+      },
+      {
+        "category": "flights",
+        "multiplier": 2
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [
+      {
+        "id": "free-night-cat1-4",
+        "name": "Free Night (Cat 1\u20134)",
+        "merchant": "Hyatt Hotels",
+        "amount": 150,
+        "frequency": "annual"
+      },
+      {
+        "id": "free-night-cat1-4-spend",
+        "name": "Free Night (Cat 1\u20134) at $15K spend",
+        "merchant": "Hyatt Hotels",
+        "amount": 150,
+        "frequency": "annual"
+      }
+    ],
+    "transferPartners": [
+      "World of Hyatt",
+      "United MileagePlus"
+    ],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripCancellation": true,
+      "tripDelay": true,
+      "baggageDelay": true,
+      "rentalCarCoverage": true,
+      "purchaseProtection": false,
+      "extendedWarranty": true
+    },
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 700,
+    "bestFor": "Highest CPP hotel points + two free night awards"
+  },
+  {
+    "id": "ihg-premier",
+    "name": "IHG One Rewards Premier Credit Card",
+    "issuer": "Chase",
+    "network": "Mastercard",
+    "type": "personal",
+    "categoryGroup": "hotel",
+    "category": "IHG",
+    "annualFee": 99,
+    "rewardsProgram": "IHG One Rewards",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 170000,
+      "minSpend": 3000,
+      "timeframeDays": 90,
+      "estimatedValue": 850
+    },
+    "earningRates": [
+      {
+        "category": "hotels",
+        "multiplier": 26,
+        "notes": "IHG hotels (combined card + loyalty bonus)"
+      },
+      {
+        "category": "dining",
+        "multiplier": 5
+      },
+      {
+        "category": "all",
+        "multiplier": 3
+      }
+    ],
+    "credits": [
+      {
+        "id": "free-night-40k",
+        "name": "Free Night (up to 40K pts)",
+        "merchant": "IHG Hotels",
+        "amount": 100,
+        "frequency": "annual"
+      },
+      {
+        "id": "global-entry",
+        "name": "Global Entry / TSA PreCheck",
+        "merchant": "Various",
+        "amount": 120,
+        "frequency": "4years"
+      }
+    ],
+    "transferPartners": [
+      "IHG One Rewards"
+    ],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripCancellation": true,
+      "tripDelay": true,
+      "baggageDelay": true,
+      "rentalCarCoverage": true,
+      "purchaseProtection": false,
+      "extendedWarranty": true
+    },
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 550,
+    "bestFor": "IHG Platinum Elite status + annual free night reward"
+  },
+  {
+    "id": "wyndham-earner-plus",
+    "name": "Wyndham Rewards Earner\u00ae Plus Card",
+    "issuer": "Barclays",
+    "network": "Visa",
+    "type": "personal",
+    "categoryGroup": "hotel",
+    "category": "Wyndham",
+    "annualFee": 75,
+    "rewardsProgram": "Wyndham Rewards",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 75000,
+      "minSpend": 1000,
+      "timeframeDays": 90,
+      "estimatedValue": 675
+    },
+    "earningRates": [
+      {
+        "category": "hotels",
+        "multiplier": 6,
+        "notes": "Wyndham & vacation rentals"
+      },
+      {
+        "category": "dining",
+        "multiplier": 4
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [],
+    "transferPartners": [
+      "Wyndham Rewards",
+      "Caesar's Rewards"
+    ],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripCancellation": false,
+      "tripDelay": false,
+      "baggageDelay": false,
+      "rentalCarCoverage": false,
+      "purchaseProtection": false,
+      "extendedWarranty": false
+    },
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 350,
+    "bestFor": "Wyndham loyalists + Caesar's Rewards transfer option"
+  },
+  {
+    "id": "marriott-bonvoy-business-amex",
+    "name": "Marriott Bonvoy Business\u00ae American Express\u00ae Card",
+    "issuer": "American Express",
+    "network": "Amex",
+    "type": "business",
+    "categoryGroup": "hotel",
+    "category": "Marriott",
+    "annualFee": 125,
+    "rewardsProgram": "Marriott Bonvoy",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 125000,
+      "minSpend": 8000,
+      "timeframeDays": 90,
+      "estimatedValue": 1000
+    },
+    "earningRates": [
+      {
+        "category": "hotels",
+        "multiplier": 6,
+        "notes": "Marriott Bonvoy hotels"
+      },
+      {
+        "category": "dining",
+        "multiplier": 4
+      },
+      {
+        "category": "shipping",
+        "multiplier": 4
+      },
+      {
+        "category": "telecom",
+        "multiplier": 4
+      },
+      {
+        "category": "all",
+        "multiplier": 2
+      }
+    ],
+    "credits": [
+      {
+        "id": "free-night-35k",
+        "name": "Free Night Award (up to 35K pts)",
+        "merchant": "Marriott Bonvoy",
+        "amount": 200,
+        "frequency": "annual"
+      },
+      {
+        "id": "free-night-35k-spend",
+        "name": "Free Night Award at $60K spend",
+        "merchant": "Marriott Bonvoy",
+        "amount": 200,
+        "frequency": "annual"
+      }
+    ],
+    "transferPartners": [
+      "Marriott Bonvoy",
+      "United MileagePlus",
+      "Delta SkyMiles",
+      "AA AAdvantage",
+      "British Airways Avios"
+    ],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripCancellation": false,
+      "tripDelay": false,
+      "baggageDelay": false,
+      "rentalCarCoverage": true,
+      "purchaseProtection": true,
+      "extendedWarranty": true
+    },
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 700,
+    "bestFor": "Business owners who stay at Marriott + up to two free nights"
+  },
+  {
+    "id": "chase-freedom-student",
+    "name": "Chase Freedom\u00ae Student Credit Card",
+    "issuer": "Chase",
+    "network": "Visa",
+    "type": "personal",
+    "categoryGroup": "student",
+    "category": "Student",
+    "annualFee": 0,
+    "rewardsProgram": "Chase Cash Back",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 50,
+      "minSpend": 0,
+      "timeframeDays": 0,
+      "estimatedValue": 50
+    },
+    "earningRates": [
+      {
+        "category": "all",
+        "multiplier": 1,
+        "notes": "1% cash back on all purchases"
+      }
+    ],
+    "credits": [
+      {
+        "id": "good-standing-bonus",
+        "name": "Good Standing Bonus ($20)",
+        "merchant": "Chase",
+        "amount": 20,
+        "frequency": "annual",
+        "notes": "Each year account is in good standing"
+      }
+    ],
+    "transferPartners": [],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripCancellation": false,
+      "tripDelay": false,
+      "baggageDelay": false,
+      "rentalCarCoverage": false,
+      "purchaseProtection": false,
+      "extendedWarranty": true
+    },
+    "foreignTransactionFee": true,
+    "creditScoreRequired": "limited",
+    "estimatedAnnualValue": 120,
+    "bestFor": "Students building credit with no annual fee"
+  },
+  {
+    "id": "discover-it-student",
+    "name": "Discover it\u00ae Student Cash Back",
+    "issuer": "Discover",
+    "network": "Discover",
+    "type": "personal",
+    "categoryGroup": "student",
+    "category": "Student",
+    "annualFee": 0,
+    "rewardsProgram": "Discover Cash Back",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 0,
+      "minSpend": 0,
+      "timeframeDays": 0,
+      "estimatedValue": 0
+    },
+    "earningRates": [
+      {
+        "category": "all",
+        "multiplier": 5,
+        "notes": "Rotating 5% categories (up to $1,500/quarter, activation required)"
+      },
+      {
+        "category": "other",
+        "multiplier": 1
+      }
+    ],
+    "credits": [
+      {
+        "id": "cashback-match",
+        "name": "Cashback Match (first year)",
+        "merchant": "Discover",
+        "amount": 0,
+        "frequency": "once",
+        "notes": "Discover matches all cash back earned in first year"
+      },
+      {
+        "id": "good-grades",
+        "name": "Good Grade Reward ($20)",
+        "merchant": "Discover",
+        "amount": 20,
+        "frequency": "annual",
+        "notes": "Each school year with 3.0+ GPA"
+      }
+    ],
+    "transferPartners": [],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripCancellation": false,
+      "tripDelay": false,
+      "baggageDelay": false,
+      "rentalCarCoverage": false,
+      "purchaseProtection": false,
+      "extendedWarranty": true
+    },
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "limited",
+    "estimatedAnnualValue": 180,
+    "bestFor": "Students who want rotating 5% categories + first-year cashback match"
+  },
+  {
+    "id": "capital-one-quicksilver",
+    "name": "Capital One Quicksilver Cash Rewards Credit Card",
+    "issuer": "Capital One",
+    "network": "Mastercard",
+    "type": "personal",
+    "categoryGroup": "cashback",
+    "category": "Flat Rate",
+    "annualFee": 0,
+    "rewardsProgram": "Capital One Cash Back",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 200,
+      "minSpend": 500,
+      "timeframeDays": 90,
+      "estimatedValue": 200
+    },
+    "earningRates": [
+      {
+        "category": "all",
+        "multiplier": 1.5,
+        "notes": "1.5% cash back on every purchase"
+      }
+    ],
+    "credits": [],
+    "transferPartners": [],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripCancellation": false,
+      "tripDelay": false,
+      "baggageDelay": false,
+      "rentalCarCoverage": true,
+      "purchaseProtection": false,
+      "extendedWarranty": true
+    },
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 225,
+    "bestFor": "Simple 1.5% flat cash back with no annual fee"
+  },
+  {
+    "id": "petal-2-visa",
+    "name": "Petal 2 Cash Back No Fees Visa Credit Card",
+    "issuer": "WebBank",
+    "network": "Visa",
+    "type": "personal",
+    "categoryGroup": "student",
+    "category": "Credit Building",
+    "annualFee": 0,
+    "rewardsProgram": "Petal Cash Back",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 0,
+      "minSpend": 0,
+      "timeframeDays": 0,
+      "estimatedValue": 0
+    },
+    "earningRates": [
+      {
+        "category": "all",
+        "multiplier": 1,
+        "notes": "1% cash back, up to 1.5% after 12 on-time payments"
+      },
+      {
+        "category": "dining",
+        "multiplier": 2,
+        "notes": "Select merchant offers"
+      }
+    ],
+    "credits": [],
+    "transferPartners": [],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripCancellation": false,
+      "tripDelay": false,
+      "baggageDelay": false,
+      "rentalCarCoverage": false,
+      "purchaseProtection": false,
+      "extendedWarranty": false
+    },
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "limited",
+    "estimatedAnnualValue": 100,
+    "bestFor": "Building credit with no fees and cash flow underwriting"
+  },
+  {
+    "id": "apple-card",
+    "name": "Apple Card",
+    "issuer": "Goldman Sachs",
+    "network": "Mastercard",
+    "type": "personal",
+    "categoryGroup": "cashback",
+    "category": "Flat Rate",
+    "annualFee": 0,
+    "rewardsProgram": "Apple Cash Back",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 0,
+      "minSpend": 0,
+      "timeframeDays": 0,
+      "estimatedValue": 0
+    },
+    "earningRates": [
+      {
+        "category": "all",
+        "multiplier": 3,
+        "notes": "3% at Apple & select merchants (Nike, Uber, Walgreens, etc.)"
+      },
+      {
+        "category": "other",
+        "multiplier": 2,
+        "notes": "2% via Apple Pay"
+      },
+      {
+        "category": "all",
+        "multiplier": 1,
+        "notes": "1% physical card swipe"
+      }
+    ],
+    "credits": [],
+    "transferPartners": [],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripCancellation": false,
+      "tripDelay": false,
+      "baggageDelay": false,
+      "rentalCarCoverage": false,
+      "purchaseProtection": false,
+      "extendedWarranty": false
+    },
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "fair",
+    "estimatedAnnualValue": 180,
+    "bestFor": "Apple ecosystem users who pay with Apple Pay frequently"
+  },
+  {
+    "id": "capital-one-savorone-student",
+    "name": "Capital One SavorOne Student Cash Rewards Credit Card",
+    "issuer": "Capital One",
+    "network": "Mastercard",
+    "type": "personal",
+    "categoryGroup": "student",
+    "category": "Student",
+    "annualFee": 0,
+    "rewardsProgram": "Capital One Cash Back",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 50,
+      "minSpend": 100,
+      "timeframeDays": 90,
+      "estimatedValue": 50
+    },
+    "earningRates": [
+      {
+        "category": "dining",
+        "multiplier": 3
+      },
+      {
+        "category": "hotels",
+        "multiplier": 3,
+        "notes": "Hotels booked via Capital One Travel"
+      },
+      {
+        "category": "all",
+        "multiplier": 1
+      }
+    ],
+    "credits": [],
+    "transferPartners": [],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripCancellation": false,
+      "tripDelay": false,
+      "baggageDelay": false,
+      "rentalCarCoverage": false,
+      "purchaseProtection": false,
+      "extendedWarranty": true
+    },
+    "foreignTransactionFee": false,
+    "creditScoreRequired": "limited",
+    "estimatedAnnualValue": 150,
+    "bestFor": "Students who spend on dining with no annual fee"
+  },
+  {
+    "id": "us-bank-cash-plus",
+    "name": "U.S. Bank Cash+ Visa Signature Card",
+    "issuer": "US Bank",
+    "network": "Visa",
+    "type": "personal",
+    "categoryGroup": "cashback",
+    "category": "Custom Categories",
+    "annualFee": 0,
+    "rewardsProgram": "US Bank Cash Back",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 200,
+      "minSpend": 1000,
+      "timeframeDays": 120,
+      "estimatedValue": 200
+    },
+    "earningRates": [
+      {
+        "category": "all",
+        "multiplier": 5,
+        "notes": "5% on two chosen categories (up to $2,000/quarter combined)"
+      },
+      {
+        "category": "all",
+        "multiplier": 2,
+        "notes": "2% on one everyday category (groceries or gas)"
+      },
+      {
+        "category": "other",
+        "multiplier": 1
+      }
+    ],
+    "credits": [],
+    "transferPartners": [],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripCancellation": false,
+      "tripDelay": false,
+      "baggageDelay": false,
+      "rentalCarCoverage": false,
+      "purchaseProtection": true,
+      "extendedWarranty": true
+    },
+    "foreignTransactionFee": true,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 350,
+    "bestFor": "Choose your own 5% categories including utilities, fast food, home improvement"
+  },
+  {
+    "id": "bofa-customized-cash-rewards",
+    "name": "Bank of America Customized Cash Rewards Credit Card",
+    "issuer": "Bank of America",
+    "network": "Visa",
+    "type": "personal",
+    "categoryGroup": "cashback",
+    "category": "Custom Categories",
+    "annualFee": 0,
+    "rewardsProgram": "BofA Cash Back",
+    "isYourCard": false,
+    "signupBonus": {
+      "points": 200,
+      "minSpend": 1000,
+      "timeframeDays": 90,
+      "estimatedValue": 200
+    },
+    "earningRates": [
+      {
+        "category": "all",
+        "multiplier": 3,
+        "notes": "3% in chosen category (gas, online shopping, dining, travel, drug, home)"
+      },
+      {
+        "category": "all",
+        "multiplier": 2,
+        "notes": "2% at grocery stores & wholesale clubs (up to $2,500/quarter combined)"
+      },
+      {
+        "category": "other",
+        "multiplier": 1
+      }
+    ],
+    "credits": [],
+    "transferPartners": [],
+    "loungeAccess": {
+      "centurion": false,
+      "priorityPass": false,
+      "deltaClub": false,
+      "plazaPremium": false,
+      "capitalOne": false,
+      "unitedClub": false,
+      "admiralsClub": false,
+      "sapphireLounge": false
+    },
+    "travelProtections": {
+      "tripCancellation": false,
+      "tripDelay": false,
+      "baggageDelay": false,
+      "rentalCarCoverage": false,
+      "purchaseProtection": false,
+      "extendedWarranty": true
+    },
+    "foreignTransactionFee": true,
+    "creditScoreRequired": "good",
+    "estimatedAnnualValue": 250,
+    "bestFor": "Preferred Rewards members who get up to 75% bonus on cash back"
+  }
+]
