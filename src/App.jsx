@@ -7,6 +7,7 @@ import Compare from './pages/Compare'
 import Finder from './pages/Finder'
 import CardDetail from './pages/CardDetail'
 import Login from './pages/Login'
+import Redeem from './pages/Redeem'
 import useAuth from './hooks/useAuth'
 import useWallet from './hooks/useWallet'
 
@@ -41,6 +42,7 @@ function AuthGate() {
           <Route path="compare" element={<Compare />} />
           <Route path="finder" element={<Finder />} />
           <Route path="card/:id" element={<CardDetail />} />
+          <Route path="redeem" element={<Redeem />} />
         </Route>
       </Routes>
     </BrowserRouter>

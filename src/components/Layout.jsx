@@ -1,5 +1,5 @@
 import { NavLink, Outlet } from 'react-router-dom'
-import { Wallet, Search, GitCompare, Zap, CreditCard, LogOut } from 'lucide-react'
+import { Wallet, Search, GitCompare, Zap, CreditCard, LogOut, TrendingUp } from 'lucide-react'
 import useWallet from '../hooks/useWallet'
 import useAuth from '../hooks/useAuth'
 
@@ -8,6 +8,7 @@ const NAV = [
   { to: '/explorer', icon: Search, label: 'Explorer' },
   { to: '/compare', icon: GitCompare, label: 'Compare' },
   { to: '/finder', icon: Zap, label: 'Card Finder' },
+  { to: '/redeem', icon: TrendingUp, label: 'Redeem' },
 ]
 
 export default function Layout() {
