@@ -2,6 +2,7 @@ import { useParams, Link } from 'react-router-dom'
 import { ArrowLeft, Check, Minus, Plus, GitCompare } from 'lucide-react'
 import allCards from '../data/cards.json'
 import useWallet from '../hooks/useWallet'
+import useAuth from '../hooks/useAuth'
 import { formatCurrency, formatPoints, annualFeeLabel } from '../utils/formatters'
 import { getCPP } from '../utils/valueCalc'
 
@@ -23,6 +24,7 @@ export default function CardDetail() {
   const { id } = useParams()
   const card = allCards.find(c => c.id === id)
   const { hasCard, addCard } = useWallet()
+  const { user } = useAuth()
   const inWallet = hasCard(id)
   const cpp = card ? getCPP(card.rewardsProgram) : 1
 
@@ -79,7 +81,7 @@ export default function CardDetail() {
 
         <div className="flex gap-2 mt-5">
           <button
-            onClick={() => !inWallet && addCard(card.id)}
+            onClick={() => !inWallet && addCard(card.id, user?.id)}
             className="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl text-sm font-semibold"
             style={
               inWallet

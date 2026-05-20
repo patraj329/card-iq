@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { Search, Plus, Trash2, ChevronDown, ChevronUp, TrendingUp } from 'lucide-react'
 import useWallet from '../hooks/useWallet'
+import useAuth from '../hooks/useAuth'
 import CreditBadge from '../components/CreditBadge'
 import { calcCardValue, pointsToValue } from '../utils/valueCalc'
 import { formatCurrency, formatPoints, annualFeeLabel } from '../utils/formatters'
@@ -58,6 +59,7 @@ function WalletSummary({ cards }) {
 
 function WalletCard({ card }) {
   const { getEntry, setPoints, toggleCredit, removeCard } = useWallet()
+  const { user } = useAuth()
   const navigate = useNavigate()
   const entry = getEntry(card.id)
   const [expanded, setExpanded] = useState(false)
@@ -99,12 +101,12 @@ function WalletCard({ card }) {
                   style={{ background: '#2A2A2A', color: '#F5F5F5', border: '1px solid #3A3A3A' }}
                   autoFocus
                   onKeyDown={e => {
-                    if (e.key === 'Enter') { setPoints(card.id, pointsInput); setEditingPoints(false) }
+                    if (e.key === 'Enter') { setPoints(card.id, pointsInput, user?.id); setEditingPoints(false) }
                     if (e.key === 'Escape') setEditingPoints(false)
                   }}
                 />
                 <button
-                  onClick={() => { setPoints(card.id, pointsInput); setEditingPoints(false) }}
+                  onClick={() => { setPoints(card.id, pointsInput, user?.id); setEditingPoints(false) }}
                   className="text-xs px-2 rounded"
                   style={{ background: '#C9A84C', color: '#0D0D0D' }}
                 >Save</button>
@@ -143,7 +145,7 @@ function WalletCard({ card }) {
             {expanded ? 'Hide' : 'Track'} Credits
           </button>
           <button
-            onClick={e => { e.stopPropagation(); removeCard(card.id) }}
+            onClick={e => { e.stopPropagation(); removeCard(card.id, user?.id) }}
             className="px-3 py-2 rounded-lg"
             style={{ background: '#2A1A1A', color: '#8A3A3A' }}
           >
@@ -159,7 +161,7 @@ function WalletCard({ card }) {
               key={credit.id}
               credit={credit}
               used={!!entry.usedCredits?.[credit.id]}
-              onToggle={used => toggleCredit(card.id, credit.id, used)}
+              onToggle={used => toggleCredit(card.id, credit.id, used, user?.id)}
             />
           ))}
         </div>
@@ -173,6 +175,7 @@ function EmptyWallet({ onSearch, query, setQuery }) {
     ? allCards.filter(c => c.name.toLowerCase().includes(query.toLowerCase()) || c.issuer.toLowerCase().includes(query.toLowerCase()))
     : []
   const { addCard } = useWallet()
+  const { user } = useAuth()
 
   return (
     <div className="flex flex-col items-center justify-center py-20 px-6 text-center">
@@ -200,7 +203,7 @@ function EmptyWallet({ onSearch, query, setQuery }) {
             {results.map(card => (
               <button
                 key={card.id}
-                onClick={() => { addCard(card.id); setQuery('') }}
+                onClick={() => { addCard(card.id, user?.id); setQuery('') }}
                 className="flex items-center justify-between w-full px-4 py-3 text-left transition-colors"
                 style={{ borderBottom: '1px solid #1E1E1E', color: '#F5F5F5' }}
               >
@@ -231,6 +234,7 @@ export default function Wallet() {
       )
     : []
   const { addCard } = useWallet()
+  const { user } = useAuth()
 
   if (walletCards.length === 0) {
     return (
@@ -265,7 +269,7 @@ export default function Wallet() {
               {addResults.map(card => (
                 <button
                   key={card.id}
-                  onClick={() => { addCard(card.id); setAddQuery('') }}
+                  onClick={() => { addCard(card.id, user?.id); setAddQuery('') }}
                   className="flex items-center justify-between w-full px-4 py-3 text-left"
                   style={{ borderBottom: '1px solid #222', color: '#F5F5F5' }}
                 >

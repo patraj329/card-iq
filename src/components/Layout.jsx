@@ -1,6 +1,7 @@
 import { NavLink, Outlet } from 'react-router-dom'
-import { Wallet, Search, GitCompare, Zap, CreditCard } from 'lucide-react'
+import { Wallet, Search, GitCompare, Zap, CreditCard, LogOut } from 'lucide-react'
 import useWallet from '../hooks/useWallet'
+import useAuth from '../hooks/useAuth'
 
 const NAV = [
   { to: '/', icon: Wallet, label: 'My Wallet' },
@@ -11,6 +12,7 @@ const NAV = [
 
 export default function Layout() {
   const { cardIds } = useWallet()
+  const { user, signOut } = useAuth()
 
   return (
     <div className="flex h-screen overflow-hidden" style={{ background: '#0D0D0D' }}>
@@ -66,8 +68,15 @@ export default function Layout() {
           ))}
         </nav>
 
-        <div className="px-2">
-          <p className="text-xs" style={{ color: '#333' }}>Card IQ v1.0</p>
+        <div className="px-2 space-y-2">
+          <p className="text-xs truncate" style={{ color: '#444' }}>{user?.email}</p>
+          <button
+            onClick={signOut}
+            className="flex items-center gap-2 text-xs w-full px-2 py-1.5 rounded-lg"
+            style={{ color: '#666', background: '#1A1A1A' }}
+          >
+            <LogOut size={12} /> Sign out
+          </button>
         </div>
       </aside>
 

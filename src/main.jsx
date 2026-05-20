@@ -2,10 +2,10 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
-import useWallet from './hooks/useWallet'
+import useAuth from './hooks/useAuth'
 
-// Hydrate wallet from server on startup
-useWallet.getState().init()
+// Initialize auth listener
+useAuth.getState().init()
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

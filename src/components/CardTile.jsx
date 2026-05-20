@@ -2,6 +2,7 @@ import { Plus, Check } from 'lucide-react'
 import { Link, useNavigate } from 'react-router-dom'
 import { formatCurrency, annualFeeLabel } from '../utils/formatters'
 import useWallet from '../hooks/useWallet'
+import useAuth from '../hooks/useAuth'
 
 const ISSUER_COLORS = {
   'American Express': { bg: '#1A6B5A', accent: '#4DB89E' },
@@ -19,6 +20,7 @@ function getIssuerStyle(issuer) {
 
 export default function CardTile({ card, showAdd = true, compact = false }) {
   const { hasCard, addCard } = useWallet()
+  const { user } = useAuth()
   const navigate = useNavigate()
   const inWallet = hasCard(card.id)
   const style = getIssuerStyle(card.issuer)
@@ -98,7 +100,7 @@ export default function CardTile({ card, showAdd = true, compact = false }) {
       {showAdd && (
         <div className="px-4 py-3" style={{ borderTop: '1px solid #2A2A2A' }}>
           <button
-            onClick={e => { e.stopPropagation(); !inWallet && addCard(card.id) }}
+            onClick={e => { e.stopPropagation(); !inWallet && addCard(card.id, user?.id) }}
             className="w-full flex items-center justify-center gap-1 py-2 rounded-lg text-xs font-medium transition-colors"
             style={
               inWallet
